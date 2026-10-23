@@ -1,0 +1,9 @@
+# Единый формат переносов: LF в репозитории и при checkout на любой ОС
+* text=auto eol=lf
+
+# бинарные файлы — не трогать
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
+*.gz binary
