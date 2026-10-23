@@ -90,7 +90,7 @@ const takenSlugs = new Set(monuments.map((m) => m.slug))
 const normTitle = (s) => String(s).toLowerCase().replace(/ё/g, 'е').trim()
 const seenTitles = new Set(monuments.map((m) => normTitle(m.title) + '|' + normTitle(m.city)))
 
-for (const name of ['out-new-1.json', 'out-new-2.json']) {
+for (const name of ['out-new-1.json', 'out-new-2.json', 'out-user.json']) {
   const out = loadJson(name)
   if (!out) continue
   for (const r of out) {
