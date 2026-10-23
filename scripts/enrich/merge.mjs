@@ -77,13 +77,15 @@ for (let i = 1; i <= 8; i++) {
 }
 
 // Новые памятники. Источники:
-//  - out-user.json — добавленные вручную (фото необязательно)
-//  - out-hunt-N.json — «охота» по регионам: фото обязательно
+//  - out-user.json — добавленные вручную
+//  - out-hunt-N.json — «охота» по регионам
+// Фото желательны, но не обязательны (недостающие доберут посетители
+// через форму «Добавить фото» и пайплайн find-photos-*.mjs)
 const NEW_SOURCES = [
   { name: 'out-user.json', requirePhoto: false },
   ...fs.readdirSync(DIR).filter((f) => /^out-hunt-\d+\.json$/.test(f))
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
-    .map((f) => ({ name: f, requirePhoto: true }))
+    .map((f) => ({ name: f, requirePhoto: false }))
 ]
 const CYR = { а:'a', б:'b', в:'v', г:'g', д:'d', е:'e', ё:'e', ж:'zh', з:'z', и:'i', й:'y', к:'k', л:'l', м:'m', н:'n', о:'o', п:'p', р:'r', с:'s', т:'t', у:'u', ф:'f', х:'kh', ц:'ts', ч:'ch', ш:'sh', щ:'sch', ъ:'', ы:'y', ь:'', э:'e', ю:'yu', я:'ya' }
 function slugify(s) {
