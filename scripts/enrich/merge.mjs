@@ -76,7 +76,15 @@ for (let i = 1; i <= 8; i++) {
   }
 }
 
-// --- 2. Новые памятники ---
+// Новые памятники. Источники:
+//  - out-user.json — добавленные вручную (фото необязательно)
+//  - out-hunt-N.json — «охота» по регионам: фото обязательно
+const NEW_SOURCES = [
+  { name: 'out-user.json', requirePhoto: false },
+  ...fs.readdirSync(DIR).filter((f) => /^out-hunt-\d+\.json$/.test(f))
+    .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
+    .map((f) => ({ name: f, requirePhoto: true }))
+]
 const CYR = { а:'a', б:'b', в:'v', г:'g', д:'d', е:'e', ё:'e', ж:'zh', з:'z', и:'i', й:'y', к:'k', л:'l', м:'m', н:'n', о:'o', п:'p', р:'r', с:'s', т:'t', у:'u', ф:'f', х:'kh', ц:'ts', ч:'ch', ш:'sh', щ:'sch', ъ:'', ы:'y', ь:'', э:'e', ю:'yu', я:'ya' }
 function slugify(s) {
   return String(s).toLowerCase().replace(/ё/g, 'е')
@@ -90,7 +98,7 @@ const takenSlugs = new Set(monuments.map((m) => m.slug))
 const normTitle = (s) => String(s).toLowerCase().replace(/ё/g, 'е').trim()
 const seenTitles = new Set(monuments.map((m) => normTitle(m.title) + '|' + normTitle(m.city)))
 
-for (const name of ['out-new-1.json', 'out-new-2.json', 'out-user.json']) {
+for (const { name, requirePhoto } of NEW_SOURCES) {
   const out = loadJson(name)
   if (!out) continue
   for (const r of out) {
@@ -98,17 +106,22 @@ for (const name of ['out-new-1.json', 'out-new-2.json', 'out-user.json']) {
     if (r.verdict && r.verdict !== 'real') continue
     const key = normTitle(r.title) + '|' + normTitle(r.city)
     if (seenTitles.has(key)) continue // дубли между агентами/каталогом
-    seenTitles.add(key)
     const coords = r.coordinates
     if (!(Number.isFinite(coords?.lat) && Number.isFinite(coords?.lng) &&
         coords.lat > 41 && coords.lat < 82 && coords.lng > 19 && coords.lng < 190)) continue
-    let slug = slugify(r.slugBase && /^[a-z0-9-]+$/.test(r.slugBase) ? r.slugBase : r.title)
-    if (takenSlugs.has(slug)) slug = `${slug}-${Date.now().toString(36).slice(-4)}`
-    takenSlugs.add(slug)
     const images = (Array.isArray(r.photos) ? r.photos : [])
       .filter((ph) => ph && /^https:\/\/commons\.wikimedia\.org\//.test(ph.url))
       .slice(0, 3)
       .map((ph) => ({ url: ph.url, source: 'commons.wikimedia.org', sourceUrl: ph.sourceUrl || null }))
+    if (requirePhoto && !images.length) {
+      report.skippedFiles.push(`${name}: без фото пропущен «${r.title}» (${r.city})`)
+      continue
+    }
+    const key2 = normTitle(r.title) + '|' + normTitle(r.city)
+    seenTitles.add(key2)
+    let slug = slugify(r.slugBase && /^[a-z0-9-]+$/.test(r.slugBase) ? r.slugBase : r.title)
+    if (takenSlugs.has(slug)) slug = `${slug}-${Date.now().toString(36).slice(-4)}`
+    takenSlugs.add(slug)
     monuments.push({
       id: monuments.reduce((mx, m) => Math.max(mx, m.id), 0) + 1,
       slug,

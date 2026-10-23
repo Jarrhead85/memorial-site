@@ -1,0 +1,36 @@
+[
+  {
+    "region": "Забайкальский край",
+    "inCatalogNow": 0,
+    "existingTitles": []
+  },
+  {
+    "region": "Магаданская область",
+    "inCatalogNow": 0,
+    "existingTitles": []
+  },
+  {
+    "region": "Сахалинская область",
+    "inCatalogNow": 0,
+    "existingTitles": []
+  },
+  {
+    "region": "Чукотский автономный округ",
+    "inCatalogNow": 0,
+    "existingTitles": []
+  },
+  {
+    "region": "Республика Бурятия",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  },
+  {
+    "region": "Республика Саха (Якутия)",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  }
+]

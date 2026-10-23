@@ -1,0 +1,42 @@
+[
+  {
+    "region": "Херсонская область",
+    "inCatalogNow": 0,
+    "existingTitles": []
+  },
+  {
+    "region": "Республика Крым",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  },
+  {
+    "region": "Волгоградская область",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Мамаев курган (Волгоград)"
+    ]
+  },
+  {
+    "region": "Республика Адыгея",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  },
+  {
+    "region": "Республика Калмыкия",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  },
+  {
+    "region": "Донецкая Народная Республика",
+    "inCatalogNow": 1,
+    "existingTitles": [
+      "Памятник букве «Й» (Йошкар-Ола)"
+    ]
+  }
+]
