@@ -110,9 +110,9 @@ for (const { name, requirePhoto } of NEW_SOURCES) {
     if (!(Number.isFinite(coords?.lat) && Number.isFinite(coords?.lng) &&
         coords.lat > 41 && coords.lat < 82 && coords.lng > 19 && coords.lng < 190)) continue
     const images = (Array.isArray(r.photos) ? r.photos : [])
-      .filter((ph) => ph && /^https:\/\/commons\.wikimedia\.org\//.test(ph.url))
+      .filter((ph) => ph && (/^https:\/\/commons\.wikimedia\.org\//.test(ph.url) || /^https:\/\/upload\.wikimedia\.org\/wikipedia\/(commons|ru)\//.test(ph.url)))
       .slice(0, 3)
-      .map((ph) => ({ url: ph.url, source: 'commons.wikimedia.org', sourceUrl: ph.sourceUrl || null }))
+      .map((ph) => ({ url: ph.url, source: ph.source || 'commons.wikimedia.org', sourceUrl: ph.sourceUrl || null }))
     if (requirePhoto && !images.length) {
       report.skippedFiles.push(`${name}: без фото пропущен «${r.title}» (${r.city})`)
       continue
