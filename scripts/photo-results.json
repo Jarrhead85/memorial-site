@@ -1,0 +1,2461 @@
+[
+  {
+    "id": 1,
+    "slug": "lyagushka-puteshestvennica",
+    "title": "Лягушка-путешественница",
+    "city": "Томск",
+    "region": "Томская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D1%83%D0%B7%D0%BD%D0%B5%D1%86%D0%BE%D0%B2_%D0%9B%D1%8F%D0%B3%D1%83%D1%88%D0%BA%D0%B0-%D0%BF%D1%83%D1%82%D0%B5%D1%88%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B8%D1%86%D0%B0.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "chelovek-nevidimka",
+    "title": "Человек-невидимка",
+    "city": "Екатеринбург",
+    "region": "Свердловская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 3,
+    "slug": "radiator-s-kotikom",
+    "title": "Радиатор с котиком",
+    "city": "Самара",
+    "region": "Самарская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 4,
+    "slug": "pup-zemli",
+    "title": "Пуп земли",
+    "city": "Кунгур",
+    "region": "Пермский край",
+    "pickedPage": "Пуп земли (Кунгур)",
+    "count": 2,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/ru/7/7c/%D0%9F%D1%83%D0%BF_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8_%28%D0%9A%D1%83%D0%BD%D0%B3%D1%83%D1%80%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%83%D0%BF_%D0%97%D0%B5%D0%BC%D0%BB%D0%B8_(%D0%9A%D1%83%D0%BD%D0%B3%D1%83%D1%80).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "dorogu-utyatam",
+    "title": "Дорогу утятам",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Дорогу утятам! (скульптура)",
+    "count": 3,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/%D0%A3%D1%82%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%D0%BD%D0%B0%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B4%D0%B5%D0%B2%D0%B8%D1%87%D1%8C%D0%B5%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.JPG/1920px-%D0%A3%D1%82%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%D0%BD%D0%B0%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B4%D0%B5%D0%B2%D0%B8%D1%87%D1%8C%D0%B5%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A3%D1%82%D0%BA%D0%B8_%D0%BF%D0%B0%D1%80%D0%BA_%D0%BD%D0%B0%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D0%9D%D0%BE%D0%B2%D0%BE%D0%B4%D0%B5%D0%B2%D0%B8%D1%87%D1%8C%D0%B5%D0%B3%D0%BE_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8F.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Make_Way_for_Ducklings_in_winter.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "zaycy-spasayuschie-sobrata",
+    "title": "Зайцы, спасающие собрата",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 7,
+    "slug": "studencheskiy-hvost",
+    "title": "Студенческий хвост",
+    "city": "Тула",
+    "region": "Тульская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 8,
+    "slug": "elektromonter-spasayuschiy-kota",
+    "title": "Электромонтёр, спасающий кота",
+    "city": "Великий Новгород",
+    "region": "Новгородская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 9,
+    "slug": "pamyatnik-klizme",
+    "title": "Памятник клизме",
+    "city": "пос. Иноземцево",
+    "region": "Ставропольский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 10,
+    "slug": "permyak-solenye-ushi",
+    "title": "Пермяк — солёные уши",
+    "city": "Пермь",
+    "region": "Пермский край",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B5%D1%80%D0%BC%D1%8F%D0%BA_%D1%81%D0%BE%D0%BB%D1%91%D0%BD%D1%8B%D0%B5_%D1%83%D1%88%D0%B8.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "kon-v-pal-to",
+    "title": "Конь в пальто",
+    "city": "Сочи",
+    "region": "Краснодарский край",
+    "pickedPage": "Конь в пальто (памятник)",
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 12,
+    "slug": "pamyatnik-ravnovesiyu",
+    "title": "Памятник равновесию",
+    "city": "Смоленск",
+    "region": "Смоленская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 13,
+    "slug": "aleshen-ka-inoplanetyanin",
+    "title": "Алешенька-инопланетянин",
+    "city": "с. Молебка",
+    "region": "Пермский край",
+    "pickedPage": "Скульптура «Алёшенька»",
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 14,
+    "slug": "fanera-nad-parizhem",
+    "title": "Фанера над Парижем",
+    "city": "пос. Уральский",
+    "region": "Пермский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 15,
+    "slug": "mysh-kupchiha",
+    "title": "Мышь-купчиха",
+    "city": "Кунгур",
+    "region": "Пермский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 16,
+    "slug": "pamyatnik-sisadminu",
+    "title": "Памятник сисадмину",
+    "city": "Пермь",
+    "region": "Пермский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 17,
+    "slug": "pamyatnik-lyubovniku",
+    "title": "Памятник любовнику",
+    "city": "Томск",
+    "region": "Томская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9B%D1%8E%D0%B1%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA%D1%83.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "pamyatnik-taburetu",
+    "title": "Памятник табурету",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 19,
+    "slug": "pamyatnik-klaviature",
+    "title": "Памятник клавиатуре",
+    "city": "Екатеринбург",
+    "region": "Свердловская область",
+    "pickedPage": "Памятник клавиатуре",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/ee/Keyboard_monument.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Keyboard_monument.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/EKB_keyboard_fixing-keys.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/EKB_keyboard_fixed.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B0%D1%8F_%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0_%D0%96%D0%B5%D0%BD%D0%B8_%D0%97%D0%BE%D1%80%D0%B8%D0%BD%D0%B0.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "pamyatnik-santehniku-stepanychu",
+    "title": "Памятник Сантехнику Степанычу",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 21,
+    "slug": "pamyatnik-samoizolyacii",
+    "title": "Памятник самоизоляции",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 4,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%BE%D1%82%D0%B5%D1%81%D1%82_%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2_%D1%80%D0%B5%D0%B6%D0%B8%D0%BC%D0%B0_%D1%81%D0%B0%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8%2C_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BA%D0%B0%D0%B2%D0%BA%D0%B0%D0%B7.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%94%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0_%D0%B2_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D0%B0_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%B3%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%BD%D0%B0_%D1%84%D0%B0%D1%81%D0%B0%D0%B4%D0%B5_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B4%D0%BE%D0%BC%D0%B0_%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D0%BF%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8_COVID-19.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%B3%D0%B8%D1%82%D0%B0%D1%86%D0%B8%D1%8F_%D1%81%D0%B0%D0%BC%D0%BE%D0%B8%D0%B7%D0%BE%D0%BB%D1%8F%D1%86%D0%B8%D0%B8_%D0%BD%D0%B0_%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%BD%D1%8B%D1%85_%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%D1%85_%D0%BE%D0%B4%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B8%D0%B7_%D1%82%D0%BE%D1%80%D0%B3%D0%BE%D0%B2%D1%8B%D1%85_%D1%86%D0%B5%D0%BD%D1%82%D1%80%D0%BE%D0%B2_%D0%B2_%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D0%BF%D0%B0%D0%BD%D0%B4%D0%B5%D0%BC%D0%B8%D0%B8_COVID-19.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "pamyatnik-internet-pol-zovatelyu",
+    "title": "Памятник интернет-пользователю",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 23,
+    "slug": "pamyatnik-lente-mebiusa",
+    "title": "Памятник ленте Мёбиуса",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 24,
+    "slug": "pamyatnik-koshel-ku",
+    "title": "Памятник кошельку",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 25,
+    "slug": "pamyatnik-chastnomu-ob-yavleniyu",
+    "title": "Памятник частному объявлению",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 26,
+    "slug": "nozhnicy",
+    "title": "Ножницы",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 27,
+    "slug": "terminator",
+    "title": "Терминатор",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 2,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D1%82%D0%BE%D1%80_%D0%9B%D1%83%D0%BD%D1%8B.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 28,
+    "slug": "dvornik",
+    "title": "Дворник",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник дворнику (Уфа)",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B4%D0%B2%D0%BE%D1%80%D0%BD%D0%B8%D0%BA%D1%83_(%D0%A3%D1%84%D0%B0).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 29,
+    "slug": "pamyatnik-dizayneru-poligrafistu",
+    "title": "Памятник дизайнеру-полиграфисту",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 30,
+    "slug": "pamyatnik-kur-eram",
+    "title": "Памятник курьерам",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 31,
+    "slug": "pamyatnik-ulybke",
+    "title": "Памятник Улыбке",
+    "city": "Саратов",
+    "region": "Саратовская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 32,
+    "slug": "svetofornoe-derevo",
+    "title": "Светофорное дерево",
+    "city": "Орёл",
+    "region": "Орловская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 33,
+    "slug": "pamyatnik-pervomu-svetoforu",
+    "title": "Памятник первому светофору",
+    "city": "Новосибирск",
+    "region": "Новосибирская область",
+    "pickedPage": "Памятник светофору",
+    "count": 2,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/0e/Pamyatnik-svetoforu-novosibirsk-2_%281%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Pamyatnik-svetoforu-novosibirsk-2_(1).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 34,
+    "slug": "pamyatnik-tverdomu-rublyu",
+    "title": "Памятник Твёрдому рублю",
+    "city": "Барнаул",
+    "region": "Алтайский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 35,
+    "slug": "pamyatnik-mytischinskomu-vodoprovodu",
+    "title": "Памятник Мытищинскому водопроводу",
+    "city": "Мытищи",
+    "region": "Московская область",
+    "pickedPage": "Памятник Мытищинскому водопроводу",
+    "count": 2,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/b/bd/Pamyatnik_vodoprovodu.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Pamyatnik_vodoprovodu.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 36,
+    "slug": "pamyatnik-kotu-semenu",
+    "title": "Памятник коту Семёну",
+    "city": "Ростов-на-Дону",
+    "region": "Ростовская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 37,
+    "slug": "pamyatnik-babushke",
+    "title": "Памятник бабушке",
+    "city": "п. Кудрово",
+    "region": "Ленинградская область",
+    "pickedPage": null,
+    "count": 3,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B5_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B5%2C_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8._-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/1774._%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA._%D0%A1%D0%BA%D1%83%D0%BB%D1%8C%D0%BF%D1%82%D1%83%D1%80%D0%B0_%22%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B1%D0%B0%D0%B1%D1%83%D1%88%D0%BA%D0%B5%22.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 38,
+    "slug": "pamyatnik-sobake",
+    "title": "Памятник собаке",
+    "city": "Красноярск",
+    "region": "Красноярский край",
+    "pickedPage": "Памятник собаке Павлова (Санкт-Петербург)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_02.jpg/1920px-%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_02.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_02.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_13.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_11.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D1%81_%D1%81%D0%BE%D0%B1%D0%B0%D1%87%D0%BA%D0%BE%D0%B9_09.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 39,
+    "slug": "monument-vremya",
+    "title": "Монумент «Время»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%92%D1%81%D0%B5%D0%BC_%D1%88%D0%B0%D1%85%D1%82%D0%B5%D1%80%D0%B0%D0%BC_%D0%B8_%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%2C_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_%D0%B7%D0%B0_%D0%B2%D1%81%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0%C2%BB.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%BD%D0%B0_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BD%D0%B5%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%B2%D0%BE_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D0%BB%D0%B5%D0%B4%D0%BE%D1%85%D0%BE%D0%B4%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A8%D0%B0%D1%85%D1%82%D0%B5%D1%80%D0%B0%D0%BC_%D0%B8_%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%2C_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_%D0%B7%D0%B0_%D0%B2%D1%81%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%92%D1%81%D0%B5%D0%BC_%D1%88%D0%B0%D1%85%D1%82%D0%B5%D1%80%D0%B0%D0%BC_%D0%B8_%D0%B3%D0%BE%D1%80%D0%BD%D0%BE%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%D0%BC%2C_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_%D0%B7%D0%B0_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F_%D1%81%D1%83%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_%D0%A7%D0%B5%D0%BB%D1%8F%D0%B1%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%83%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B1%D0%B0%D1%81%D1%81%D0%B5%D0%B9%D0%BD%D0%B0.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 40,
+    "slug": "pamyatnik-bukve-y",
+    "title": "Памятник букве «Й»",
+    "city": "Йошкар-Ола",
+    "region": "Республика Марий Эл",
+    "pickedPage": "Памятник букве «Ў»",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%BE%D0%BC%D0%BD%D1%96%D0%BA_%D0%BB%D1%96%D1%82%D0%B0%D1%80%D1%8B_%22%D0%8E%22.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 41,
+    "slug": "pamyatnik-gostepriimstvu",
+    "title": "Памятник гостеприимству",
+    "city": "Сочи",
+    "region": "Краснодарский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 42,
+    "slug": "muzhchina-s-sobachkoy",
+    "title": "Мужчина с собачкой",
+    "city": "Красноярск",
+    "region": "Красноярский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 43,
+    "slug": "zmey-gorynych",
+    "title": "Змей Горыныч",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%BC%D0%B5%D0%B9-%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87%2C_%D0%B8%D0%BB%D0%B8_%D0%91%D0%BE%D0%B9_%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%BD%D0%B8_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D1%87%D0%B0_%D1%81_%D1%81%D0%B5%D0%BC%D0%B8%D0%B3%D0%BB%D0%B0%D0%B2%D1%8B%D0%BC_%D0%97%D0%BC%D0%B5%D0%B5%D0%BC-%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87%D0%B5%D0%BC.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%BC%D0%B5%D0%B9_%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87_%D0%A1%D0%BE%D1%87%D0%B8_%D0%9F%D0%B0%D1%80%D0%BA.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%BC%D0%B5%D0%B9_%D1%82%D1%80%D0%B5%D1%85%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%8B%D0%B9_%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%BC%D0%B5%D0%B9_%D1%82%D1%80%D0%B5%D1%85%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D0%B9_%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87_%D0%BB%D0%B5%D0%B2.%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%B0.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%BD%D1%8F_%D0%9D%D0%B8%D0%BA%D0%B8%D1%82%D0%B8%D1%87_%D0%B8_%D0%97%D0%BC%D0%B5%D0%B9_%D0%93%D0%BE%D1%80%D1%8B%D0%BD%D1%8B%D1%87_%D0%B7%D0%BD%D0%B0%D1%87%D0%BE%D0%BA_%D0%BF%D0%B5%D1%80%D0%B5%D0%BB%D0%B8%D0%B2%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B5%D1%80%D0%B5%D0%BE.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 44,
+    "slug": "pamyatnik-schuke",
+    "title": "Памятник Щуке",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 45,
+    "slug": "pamyatnik-pervoklassniku",
+    "title": "Памятник первокласснику",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник первокласснику",
+    "count": 2,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/%D0%A3%D1%87%D0%B5%D0%BD%D0%B8%D0%BA.JPG/1920px-%D0%A3%D1%87%D0%B5%D0%BD%D0%B8%D0%BA.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A3%D1%87%D0%B5%D0%BD%D0%B8%D0%BA.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 46,
+    "slug": "pamyatnik-mal-chiku-s-kameroy",
+    "title": "Памятник мальчику с камерой",
+    "city": "Краснодар",
+    "region": "Краснодарский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 47,
+    "slug": "planeta-malen-kogo-princa",
+    "title": "Планета Маленького принца",
+    "city": "Бакал",
+    "region": "Челябинская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 48,
+    "slug": "robin-bobin",
+    "title": "Робин Бобин",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 49,
+    "slug": "pamyatnik-alyuminievoy-lozhke",
+    "title": "Памятник алюминиевой ложке",
+    "city": "Новосибирск",
+    "region": "Новосибирская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 50,
+    "slug": "pamyatnik-ulybke-2",
+    "title": "Памятник Улыбке",
+    "city": "Тольятти",
+    "region": "Самарская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 51,
+    "slug": "pamyatnik-kartoshke",
+    "title": "Памятник картошке",
+    "city": "Мариинск",
+    "region": "Кемеровская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%92_2015_%D0%B3%D0%BE%D0%B4%D1%83_%D0%B2_%D0%A1%D1%82%D0%BE%D0%BB%D1%8F%D1%80%D0%BE%D0%B2%D0%BA%D0%B5_%D1%83%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%88%D0%BA%D0%B5%2C_%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F_%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D0%BB%D0%B0_%D1%81%D0%B5%D0%BB%D0%BE_%D0%B2%D0%BE_%D0%B2%D1%81%D0%B5_%D0%B3%D0%BE%D0%B4%D1%8B_%D0%BB%D0%B8%D1%85%D0%BE%D0%BB%D0%B5%D1%82%D1%8C%D1%8F.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 52,
+    "slug": "pamyatnik-shprotam",
+    "title": "Памятник шпротам",
+    "city": "Мамоново",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 53,
+    "slug": "pamyatnik-syrku-druzhba",
+    "title": "Памятник сырку «Дружба»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник плавленому сырку «Дружба»",
+    "count": 2,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D1%8B%D1%80%D0%BA%D1%83.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Empty_stand_of_Karat_processed_cheese_monument.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 54,
+    "slug": "pamyatnik-ogurcu",
+    "title": "Памятник огурцу",
+    "city": "Луховицы",
+    "region": "Московская область",
+    "pickedPage": "Памятник огурцу (Луховицы)",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Lukhovitsy%2C_Moscow_Oblast%2C_Russia_-_panoramio_%28119%29.jpg/1920px-Lukhovitsy%2C_Moscow_Oblast%2C_Russia_-_panoramio_%28119%29.jpg"
+    ]
+  },
+  {
+    "id": 55,
+    "slug": "pamyatnik-arbuzu",
+    "title": "Памятник арбузу",
+    "city": "Минусинск",
+    "region": "Красноярский край",
+    "pickedPage": "Памятник херсонскому арбузу",
+    "count": 3,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D1%80%D0%B1%D1%83%D0%B7%D1%83_3.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D1%80%D0%B1%D1%83%D0%B7%D1%83_2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%B0%D1%80%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B0%D1%80%D0%B1%D1%83%D0%B7%D1%83_1.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 56,
+    "slug": "pamyatnik-tul-skomu-pryaniku",
+    "title": "Памятник тульскому прянику",
+    "city": "Тула",
+    "region": "Тульская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A2%D1%83%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%BC%D1%83_%D0%BF%D1%80%D1%8F%D0%BD%D0%B8%D0%BA%D1%83.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 57,
+    "slug": "pamyatnik-vishne",
+    "title": "Памятник вишне",
+    "city": "Владимир",
+    "region": "Владимирская область",
+    "pickedPage": null,
+    "count": 2,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%B2%D0%B8%D1%88%D0%BD%D0%B5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A1%D0%BA%D0%B2%D0%B5%D1%80_%D1%83_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%B0_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%B2%D0%B8%D1%88%D0%BD%D0%B5_%D1%81_%D0%B2%D0%B8%D0%B4%D0%BE%D0%BC_%D0%BD%D0%B0_%D0%B2%D0%BE%D0%B4%D0%BE%D0%BD%D0%B0%D0%BF%D0%BE%D1%80%D0%BD%D1%83%D1%8E_%D0%B1%D0%B0%D1%88%D0%BD%D1%8E.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 58,
+    "slug": "pamyatnik-yabloku",
+    "title": "Памятник яблоку",
+    "city": "Курск",
+    "region": "Курская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 59,
+    "slug": "pamyatnik-kapuste",
+    "title": "Памятник капусте",
+    "city": "Великий Новгород",
+    "region": "Новгородская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D0%BB%D1%8B%D1%88_%D0%B2_%D0%BA%D0%B0%D0%BF%D1%83%D1%81%D1%82%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 60,
+    "slug": "pamyatnik-voble",
+    "title": "Памятник вобле",
+    "city": "Астрахань",
+    "region": "Астраханская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 61,
+    "slug": "pamyatnik-pel-menyu",
+    "title": "Памятник пельменю",
+    "city": "Ижевск",
+    "region": "Удмуртская Республика",
+    "pickedPage": "Памятник пельменю (значения)",
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B5%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D1%8E_%D0%B2_%D0%98%D0%B6%D0%B5%D0%B2%D1%81%D0%BA%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 62,
+    "slug": "pamyatnik-blinu",
+    "title": "Памятник блину",
+    "city": "Сенгилей",
+    "region": "Ульяновская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 63,
+    "slug": "pamyatnik-luku",
+    "title": "Памятник луку",
+    "city": "с. Мячиково",
+    "region": "Московская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BB%D1%83%D0%BA%D1%83_%D0%B2_%D0%9C%D1%8F%D1%87%D0%BA%D0%BE%D0%B2%D0%BE.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 64,
+    "slug": "pamyatnik-vareniku",
+    "title": "Памятник варенику",
+    "city": "Ейск",
+    "region": "Краснодарский край",
+    "pickedPage": "Памятник варенику (значения)",
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%B4%D0%BE%D1%88%D0%BA%D0%B0_-_%D0%B2%D0%BE%D1%97%D0%BD%D0%B0%D0%BC-%D1%96%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B0%D0%BC_%D0%92.%D0%9E._%D0%9C%D0%B0%D0%BB%D0%BE%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%2C%D0%9E.%D0%92.%D0%A7%D0%B5%D1%80%D0%B5%D0%BF%D1%83%2C%D0%9C.%D0%86.%D0%92%D0%B0%D1%80%D0%B5%D0%BD%D0%B8%D0%BA%D1%83.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 65,
+    "slug": "pamyatnik-yaycu",
+    "title": "Памятник яйцу",
+    "city": "пос. Разумное",
+    "region": "Белгородская область",
+    "pickedPage": null,
+    "count": 3,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%8F%D0%B9%D1%86%D1%83_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%8F%D0%B9%D1%86%D1%83_%D0%B2_%D1%81%D1%82%D1%83%D0%BF%D0%BA%D0%B5%2C_%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%8F%D0%B9%D1%86%D1%83%2C_%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2%2C_%D1%83%D0%BB._%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%BE%D0%BA%D1%82%D1%8F%D0%B1%D1%80%D1%8C%D1%81%D0%BA%D0%B0%D1%8F%2C_5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 66,
+    "slug": "pamyatnik-kolbase",
+    "title": "Памятник колбасе",
+    "city": "Новосибирск",
+    "region": "Новосибирская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 67,
+    "slug": "pamyatnik-kolyushke",
+    "title": "Памятник колюшке",
+    "city": "Кронштадт",
+    "region": "Ленинградская область",
+    "pickedPage": "Памятник блокадной колюшке",
+    "count": 3,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9c/Monument_blockaded_fish_kolushka.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_blockaded_fish_kolushka.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/PICT0246-1.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 68,
+    "slug": "pamyatnik-hlebu",
+    "title": "Памятник хлебу",
+    "city": "Зеленогорск",
+    "region": "Ленинградская область",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%85%D0%BB%D0%B5%D0%B1%D1%83.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%85%D0%BB%D0%B5%D0%B1%D1%83_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA_%D0%A1%D0%9F%D0%B1_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%85%D0%BB%D0%B5%D0%B1%D1%83.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%85%D0%BB%D0%B5%D0%B1%D1%83._%D0%9A%D1%82%D0%BE_%D1%8D%D1%82%D0%BE_%D0%B7%D0%B4%D0%B5%D1%81%D1%8C_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA_%D0%A1%D0%9F%D0%B1_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%85%D0%BB%D0%B5%D0%B1%D1%831.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 69,
+    "slug": "pamyatnik-echpochmaku",
+    "title": "Памятник эчпочмаку",
+    "city": "Казань",
+    "region": "Республика Татарстан",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 70,
+    "slug": "pamyatnik-orskomu-pirozhku",
+    "title": "Памятник орскому пирожку",
+    "city": "Орск",
+    "region": "Оренбургская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 71,
+    "slug": "pamyatnik-sguschenke",
+    "title": "Памятник сгущёнке",
+    "city": "Сургут",
+    "region": "ХМАО",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 72,
+    "slug": "pamyatnik-ryzhiku",
+    "title": "Памятник рыжику",
+    "city": "с. Верх-Юсьва",
+    "region": "Пермский край",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%80%D1%8B%D0%B6%D0%B8%D0%BA%D1%83%2C_%D0%92%D0%B5%D1%80%D1%85-%D0%AE%D1%81%D1%8C%D0%B2%D0%B0%2C_%D0%9F%D0%B5%D1%80%D0%BC%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B0%D0%B9_-_panoramio.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 73,
+    "slug": "pamyatnik-makaronam",
+    "title": "Памятник макаронам",
+    "city": "деревня Петрово",
+    "region": "Калужская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 74,
+    "slug": "pamyatnik-treske",
+    "title": "Памятник треске",
+    "city": "Мурманск",
+    "region": "Мурманская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 75,
+    "slug": "pamyatnik-limonu",
+    "title": "Памятник лимону",
+    "city": "Павлово",
+    "region": "Нижегородская область",
+    "pickedPage": null,
+    "count": 2,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%B2%D0%BB%D0%BE%D0%B2%D0%BE%2C_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD%D1%83_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B5%D1%80%D0%B0%D1%86%D1%86%D0%BE_%D0%B2_%D0%B2%D0%B8%D0%B3%D0%BB%D1%8F%D0%B4%D1%96_%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0_%D0%BB%D0%B8%D0%BC%D0%BE%D0%BD%D1%83_(%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%B0_%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%8F_%D0%94%D0%B0%D0%BD%D0%B8%D0%BB%D0%B0).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 76,
+    "slug": "pamyatnik-tykve",
+    "title": "Памятник тыкве",
+    "city": "Сочи",
+    "region": "Краснодарский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 77,
+    "slug": "pamyatnik-klubnike",
+    "title": "Памятник клубнике",
+    "city": "Белгород",
+    "region": "Белгородская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 78,
+    "slug": "pamyatnik-morozhenomu",
+    "title": "Памятник мороженому",
+    "city": "Благовещенск",
+    "region": "Амурская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 79,
+    "slug": "pamyatnik-samovaru",
+    "title": "Памятник самовару",
+    "city": "Елабуга",
+    "region": "Республика Татарстан",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D1%80%D1%83%C2%BB.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D1%80%D1%83_(%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D1%80%D1%83%C2%BB_%D0%B2_%D0%9A%D0%B0%D0%BC%D1%8B%D1%88%D0%B8%D0%BD%D0%B5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D1%80%D1%83_%D0%B2_%D0%9A%D1%83%D0%BD%D0%B3%D1%83%D1%80%D0%B5_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB_%D0%A1%D0%B0%D0%BC%D0%BE%D0%B2%D0%B0%D1%80%D1%83%C2%BB_%D0%B2_%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D0%B5_%D0%9A%D0%B0%D0%BC%D1%8B%D1%88%D0%B8%D0%BD%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 80,
+    "slug": "pamyatnik-chak-chaku",
+    "title": "Памятник чак-чаку",
+    "city": "Казань",
+    "region": "Республика Татарстан",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 81,
+    "slug": "pamyatnik-krabu",
+    "title": "Памятник крабу",
+    "city": "Владивосток",
+    "region": "Приморский край",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 82,
+    "slug": "pamyatnik-borschu",
+    "title": "Памятник борщу",
+    "city": "Воронеж",
+    "region": "Воронежская область",
+    "pickedPage": null,
+    "count": 4,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%BE%D1%80%D1%89%D1%83_-_20250328_111926.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%BE%D1%80%D1%89%D1%83_-_20250328_102514.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%BE%D1%80%D1%89%D1%83_-_20250328_102503.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%B8%D0%B3%D0%BE%D1%82%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F_%D0%B1%D0%BE%D1%80%D1%89%D1%83_%D0%BD%D0%B0_%D1%84%D0%B5%D1%81%D1%82%D0%B8%D0%B2%D0%B0%D0%BB%D1%96_%22%D0%91%D0%BE%D1%80%D1%89%D0%B8%D0%BA_%D0%B2_%D0%B3%D0%BB%D0%B8%D0%BD%D1%8F%D0%BD%D0%BE%D0%BC%D1%83_%D0%B3%D0%BE%D1%80%D1%89%D0%B8%D0%BA%D1%83%22_%D0%B2_%D0%9E%D0%BF%D1%96%D1%88%D0%BD%D1%96_(%D0%9F%D0%BE%D0%BB%D1%82%D0%B0%D0%B2%D1%89%D0%B8%D0%BD%D0%B0)%2C_2018_%D1%80%D1%96%D0%BA.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 83,
+    "slug": "pamyatnik-seledke",
+    "title": "Памятник селёдке",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 84,
+    "slug": "pamyatnik-uhe",
+    "title": "Памятник ухе",
+    "city": "Псков",
+    "region": "Псковская область",
+    "pickedPage": null,
+    "count": 2,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%A1%D0%98%D0%97%D0%9E%D0%A1_%D0%B8%D0%B7%D0%BC%D0%B5%D1%80%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BE%D0%BD%D0%BE%D0%BC_%D0%B2_%D1%83%D1%85%D0%B5_MIRE_3-2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%BB%D0%B5%D1%89%D0%B8_otodectes_cynotis_%D0%B2_%D0%BD%D0%B0%D1%80%D1%83%D0%B6%D0%BD%D0%BE%D0%BC_%D1%83%D1%85%D0%B5_%D0%BA%D0%BE%D1%88%D0%BA%D0%B8.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 85,
+    "slug": "chizhik-pyzhik",
+    "title": "Чижик-Пыжик",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Чижик-Пыжик (памятник)",
+    "count": 2,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA-%D0%BF%D1%8B%D0%B6%D0%B8%D0%BA_4.JPG/1920px-%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA-%D0%BF%D1%8B%D0%B6%D0%B8%D0%BA_4.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B5%D1%80%D0%B2%D1%8B%D0%B9_%D0%98%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82_%D0%A7%D0%B8%D0%B6%D0%B8%D0%BA-%D0%BF%D1%8B%D0%B6%D0%B8%D0%BA_4.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 86,
+    "slug": "homlin-ded-karl",
+    "title": "Хомлин Дед Карл",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 87,
+    "slug": "homlin-babushka-marta",
+    "title": "Хомлин Бабушка Марта",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 88,
+    "slug": "homlin-leo",
+    "title": "Хомлин Лео",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 89,
+    "slug": "homlin-varvara",
+    "title": "Хомлин Варвара",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 90,
+    "slug": "grib-mudrec",
+    "title": "Гриб Мудрец",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 91,
+    "slug": "grib-korobeynik",
+    "title": "Гриб Коробейник",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 92,
+    "slug": "grib-professor",
+    "title": "Гриб-профессор",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 93,
+    "slug": "kikimora-udacha",
+    "title": "Кикимора Удача",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 94,
+    "slug": "kikimora-iskrennost",
+    "title": "Кикимора Искренность",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 95,
+    "slug": "kikimora-zdorov-e",
+    "title": "Кикимора Здоровье",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 96,
+    "slug": "kikimora-lyubov",
+    "title": "Кикимора Любовь",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 97,
+    "slug": "homlin-senya",
+    "title": "Хомлин Сеня",
+    "city": "Калининград",
+    "region": "Калининградская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 98,
+    "slug": "grib-smotritel",
+    "title": "Гриб-смотритель",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 99,
+    "slug": "grib-sadovnik",
+    "title": "Гриб-садовник",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 100,
+    "slug": "kikimora-komandir",
+    "title": "Кикимора Командир",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 101,
+    "slug": "kikimora-ambicii",
+    "title": "Кикимора Амбиции",
+    "city": "Киров",
+    "region": "Кировская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 102,
+    "slug": "pamyatnik-kotu-uchenomu",
+    "title": "Памятник коту-учёному",
+    "city": "Домодедово",
+    "region": "Московская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 103,
+    "slug": "ezhik-na-perekrestke",
+    "title": "Ёжик на перекрёстке",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 104,
+    "slug": "zayac-s-fonarem",
+    "title": "Заяц с фонарём",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 105,
+    "slug": "pamyatnik-bukve-y-2",
+    "title": "Памятник букве «Ы»",
+    "city": "Сыктывкар",
+    "region": "Республика Коми",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 106,
+    "slug": "pamyatnik-bukve-a",
+    "title": "Памятник букве «А»",
+    "city": "Ижевск",
+    "region": "Удмуртская Республика",
+    "pickedPage": "Памятник букве «ё»",
+    "count": 4,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/4e/Monument_%D0%811.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_%D0%812.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_%D0%811.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B1%D1%83%D0%BA%D0%B2%D0%B5_%D0%81_(1)_(%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 107,
+    "slug": "pamyatnik-bukve-yu",
+    "title": "Памятник букве «Ю»",
+    "city": "Тобольск",
+    "region": "Тюменская область",
+    "pickedPage": "Памятник букве «О»",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Vologda._Letter_O_sculpture.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 108,
+    "slug": "mayak-v-miniatyure",
+    "title": "Маяк в миниатюре",
+    "city": "Челябинск",
+    "region": "Челябинская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 109,
+    "slug": "kotenok-s-ulicy-lizyukova",
+    "title": "Котёнок с улицы Лизюкова",
+    "city": "Воронеж",
+    "region": "Воронежская область",
+    "pickedPage": "Памятник котёнку с улицы Лизюкова",
+    "count": 3,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Kotenok_s_ulitsy_Lizyukova_Voronezh_2005.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Voronezh_monument_Cat_from_Lezyukov_street.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Voronezh_monument_Cat_from_Lezyukov_street_crow.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 110,
+    "slug": "tysyacheletie-rossii",
+    "title": "Тысячелетие России",
+    "city": "Великий Новгород",
+    "region": "Новгородская область",
+    "pickedPage": "Тысячелетие России",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%82%D1%8B%D1%81%D1%8F%D1%87%D0%B5%D0%BB%D0%B5%D1%82%D0%B8%D1%8E_%D0%A0%D1%83%D1%81%D0%B8.jpg/1920px-%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%82%D1%8B%D1%81%D1%8F%D1%87%D0%B5%D0%BB%D0%B5%D1%82%D0%B8%D1%8E_%D0%A0%D1%83%D1%81%D0%B8.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%82%D1%8B%D1%81%D1%8F%D1%87%D0%B5%D0%BB%D0%B5%D1%82%D0%B8%D1%8E_%D0%A0%D1%83%D1%81%D0%B8.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9D%D0%BE%D0%B2%D0%B3%D0%BE%D1%80%D0%BE%D0%B4._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_1000-%D0%BB%D0%B5%D1%82%D0%B8%D0%B5_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8_(%D1%81_%D0%A1%D0%BE%D1%84.%D1%81%D0%BE%D0%B1.)_1883%D0%B3_513344_orig06268u_e1t3b_fhd.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_1000-%D0%BB%D0%B5%D1%82%D0%B8%D1%8E_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8._%D0%90%D0%BD%D0%B3%D0%B5%D0%BB_%D1%81_%D0%BA%D1%80%D0%B5%D1%81%D1%82%D0%BE%D0%BC._-_panoramio.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/1000_Rurik.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 111,
+    "slug": "mednyy-vsadnik",
+    "title": "Медный всадник",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Медный всадник",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/The_Bronze_Horseman_%28St._Petersburg%2C_Russia%29.jpg/1920px-The_Bronze_Horseman_%28St._Petersburg%2C_Russia%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/The_Bronze_Horseman_(St._Petersburg%2C_Russia).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Bronze_Horseman_(fragment).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Roma_1000_221.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Budapest_Rearing_Horse_and_Mounted_Warrior%2C_right_side%2C_by_E.C.Rae.png?width=1600"
+    ]
+  },
+  {
+    "id": 112,
+    "slug": "mininu-i-pozharskomu",
+    "title": "Минину и Пожарскому",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Минину и Пожарскому",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/0340_-_Moskau_2015_%2826399133935%29.jpg/1920px-0340_-_Moskau_2015_%2826399133935%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/0340_-_Moskau_2015_(26399133935).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Martos_IP.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/01a2160d98ff.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moscow_after_1812_fire_8.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 113,
+    "slug": "yuriyu-dolgorukomu",
+    "title": "Юрию Долгорукому",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Юрию Долгорукому",
+    "count": 5,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/MemorialToJuriDolgoruky.jpeg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moscow%2C_Skobelev_Monument%2C_inauguration_1912.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Constitution_Monument.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/RR3009-0010R_%D0%A0%D1%83%D0%B1%D0%BB%D1%8C_%D0%A1%D0%A1%D0%A1%D0%A0_1980_%D0%AE%D1%80%D0%B8%D0%B9_%D0%94%D0%BE%D0%BB%D0%B3%D0%BE%D1%80%D1%83%D0%BA%D0%B8%D0%B9_%D1%84%D0%BE%D1%82%D0%BE1.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Russia_1992_No_20_stamp_(1st_standard_issue_of_Russia._4th_issue._Statue_of_Yuriy_Dolgorukiy_(sculptors_Sergei_Orlov_and_others%2C_architect_Viktor_Andreyev)%2C_Moscow).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 114,
+    "slug": "car-plotnik",
+    "title": "Царь-плотник",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Царь-плотник",
+    "count": 4,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/93/%D0%9F%D1%91%D1%82%D1%80_%D0%BD%D0%B0_%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%82%D0%B5%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9_1.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%91%D1%82%D1%80_%D0%BD%D0%B0_%D0%90%D0%B4%D0%BC%D0%B8%D1%80%D0%B0%D0%BB%D1%82%D0%B5%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%BD%D0%B0%D0%B1%D0%B5%D1%80%D0%B5%D0%B6%D0%BD%D0%BE%D0%B9_1.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Zaandam_peter_de_grote.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Tsar-carpenter_(monument_in_SPb).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 115,
+    "slug": "nikolayu-i",
+    "title": "Николаю I",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Памятник Николаю I",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/SPb_%D0%A1%D0%9F%D0%B1._Monument_to_Nicholas_I_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I._%D0%92%D0%B8%D0%B4_%D1%81_%D1%81-%D0%B7_IMG6872.3_e1CR3r.jpg/1920px-SPb_%D0%A1%D0%9F%D0%B1._Monument_to_Nicholas_I_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I._%D0%92%D0%B8%D0%B4_%D1%81_%D1%81-%D0%B7_IMG6872.3_e1CR3r.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/SPb_%D0%A1%D0%9F%D0%B1._Monument_to_Nicholas_I_%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I._%D0%92%D0%B8%D0%B4_%D1%81_%D1%81-%D0%B7_IMG6872.3_e1CR3r.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%BE%D1%81%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5_%D0%98%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%BC_%D0%BC%D0%B0%D1%81%D1%82%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B9_%D0%9F.%D0%9A.%D0%9A%D0%BB%D0%BE%D0%B4%D1%82%D0%B0%2C%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D1%81%D1%82%D0%B0%D1%82%D1%83%D0%B5%D0%B9_%D0%B4%D0%BB%D1%8F_%D0%BF%D0%B0%D0%BC.%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I.1855%D0%B3_e1.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Russia._SPb_%D0%A1%D0%9F%D0%B1._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I._%D0%92%D0%B8%D0%B4_%D0%BA%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B0%D1%82%D1%83%D0%B8_1859_WOA_IMAGE_1.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/SBp_%D0%A1%D0%9F%D0%B1._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D1%8E_I._%D0%A7%D0%B0%D1%81%D1%82%D1%8C_%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%D0%B0_-_%D0%9F%D1%80%D0%B0%D0%B2%D0%BE%D1%81%D1%83%D0%B4%D0%B8%D0%B5_%D0%B8_%D0%A1%D0%B8%D0%BB%D0%B0_1859_WOA_IMAGE_1.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 116,
+    "slug": "ekaterine-ii",
+    "title": "Екатерине II",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Памятник Екатерине II",
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B5_II_(%D0%9D%D0%B0%D1%85%D0%B8%D1%87%D0%B5%D0%B2%D0%B0%D0%BD%D1%8C-%D0%BD%D0%B0-%D0%94%D0%BE%D0%BD%D1%83).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B5_II_(%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D1%80%D0%B8%D1%86%D0%B5_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B5_II_%D0%B2_%D0%9A%D1%80%D0%B0%D1%81%D0%BD%D0%BE%D0%B4%D0%B0%D1%80%D0%B5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B5_II_%D0%B2_%D0%92%D0%B8%D0%BB%D1%8C%D0%BD%D0%B5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%95%D0%BA%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%BD%D0%B5_II_(%D0%B2%D0%B8%D0%B4_%D1%81%D0%B7%D0%B0%D0%B4%D0%B8).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 117,
+    "slug": "petru-i-v-arhangel-ske",
+    "title": "Петру I в Архангельске",
+    "city": "Архангельск",
+    "region": "Архангельская область",
+    "pickedPage": "Памятник Петру I (Архангельск)",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/c/cf/Petr_I_Arkhangelsk_2011.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Petr_I_Arkhangelsk_2011.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D0%B5%D1%86%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D1%8B%D1%80%D1%8C._%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%BB%D0%BE%D0%BC%D0%BD%D1%8F_%D0%BD%D0%B0_%D0%9A%D0%BE%D0%BD%D0%B4%D0%BE%D1%81%D1%82%D1%80%D0%BE%D0%B2%D0%B5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Project_postamenta_Petra.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Petr_I_Arkhangelsk_open_1914.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 118,
+    "slug": "petru-i-v-voronezhe",
+    "title": "Петру I в Воронеже",
+    "city": "Воронеж",
+    "region": "Воронежская область",
+    "pickedPage": "Памятник Петру I (Воронеж)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B5%D1%82%D1%80%D1%83_1.JPG/1920px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B5%D1%82%D1%80%D1%83_1.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9F%D0%B5%D1%82%D1%80%D1%83_1.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B8%D0%BD%D0%B6%D0%B5%D0%BD%D0%B5%D1%80%D0%BD%D1%8B%D0%B9_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Bronze_Horseman002.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Kronstadt_Peter_the_Great_monument.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 119,
+    "slug": "petru-i-v-taganroge",
+    "title": "Петру I в Таганроге",
+    "city": "Таганрог",
+    "region": "Ростовская область",
+    "pickedPage": "Памятник Петру I (Таганрог)",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/0/07/2008_Peter_the_Great_Monument.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/2008_Peter_the_Great_Monument.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Taganrog_PetrI_2011.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Petr_1_Sampsonievsky.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/RussiaP6c-500Rubles-1898-donatedtj_f.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 120,
+    "slug": "ivanu-groznomu",
+    "title": "Ивану Грозному",
+    "city": "Орёл",
+    "region": "Орловская область",
+    "pickedPage": "Памятник Ивану Грозному (Орёл)",
+    "count": 2,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%98%D0%B2%D0%B0%D0%BD%D1%83_%D0%93%D1%80%D0%BE%D0%B7%D0%BD%D0%BE%D0%BC%D1%83_%D0%B2_%D0%9E%D1%80%D0%BB%D0%B5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Nikon_letopis_1566.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 121,
+    "slug": "dmitriyu-donskomu",
+    "title": "Дмитрию Донскому",
+    "city": "Коломна",
+    "region": "Московская область",
+    "pickedPage": "Памятник Дмитрию Донскому (Коломна)",
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8E_%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83_%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%BD%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8E_%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8E_%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/Kolomna%2C_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D0%BA%D0%B8%D0%BD%D0%B0_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%D0%B8_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8E_%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D1%8E_%D0%94%D0%BE%D0%BD%D1%81%D0%BA%D0%BE%D0%BC%D1%83_%D0%B8_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F_%D0%9C%D0%B0%D1%80%D0%B8%D0%BD%D1%8B_%D0%9C%D0%BD%D0%B8%D1%88%D0%B5%D0%BA.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 122,
+    "slug": "aleksandru-nevskomu",
+    "title": "Александру Невскому",
+    "city": "Псков",
+    "region": "Псковская область",
+    "pickedPage": "Памятник Александру Невскому (Псков)",
+    "count": 1,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/1/13/AlexanderNevskyTitul.jpg"
+    ]
+  },
+  {
+    "id": 123,
+    "slug": "pushkinu-na-tverskoy",
+    "title": "Пушкину на Тверской",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Александру Пушкину",
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/14.07.2019_%D0%92%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0_%D1%81_%D0%BA%D0%B0%D0%BD%D0%B4%D0%B8%D0%B4%D0%B0%D1%82%D0%B0%D0%BC%D0%B8_%D0%B2_%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%8B_%D0%BD%D0%B0_%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%BE%D0%B9._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D1%83.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 124,
+    "slug": "lermontovu",
+    "title": "Лермонтову",
+    "city": "Пятигорск",
+    "region": "Ставропольский край",
+    "pickedPage": "Памятник Лермонтову (Пятигорск)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C.%D0%AE.%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%83%2C_%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%2C_%D0%B8%D1%8E%D0%BB%D1%8C_2015%D0%B3%2C.jpg/1920px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C.%D0%AE.%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%83%2C_%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%2C_%D0%B8%D1%8E%D0%BB%D1%8C_2015%D0%B3%2C.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C.%D0%AE.%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%83%2C_%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%2C_%D0%B8%D1%8E%D0%BB%D1%8C_2015%D0%B3%2C.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F._%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%2C_%D1%86%D0%B5%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D0%B8%D1%8F_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F_%D0%BF%D0%B0%D0%BC._%D0%9C.%D0%AE.%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%83._16%D0%B0%D0%B2%D0%B3%D1%83%D1%81%D1%82%D0%B01889%D0%B3._%D0%93%D0%98%D0%9C_e1t3.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Pyatigorsk._Monument_to_Mikhail_Lermontov_PB030007_2205.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9C._%D0%AE._%D0%9B%D0%B5%D1%80%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2%D1%83_%D0%B2_%D0%9F%D1%8F%D1%82%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 125,
+    "slug": "gogolyu-na-gogolevskom",
+    "title": "Гоголю на Гоголевском",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Гоголю (Москва, Гоголевский бульвар)",
+    "count": 1,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/9/9a/Nikolay_Gogol_01.JPG"
+    ]
+  },
+  {
+    "id": 126,
+    "slug": "chehovu-na-kamergerskom",
+    "title": "Чехову на Камергерском",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Чехову (Москва, Камергерский переулок)",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Kamergersky_Lane_autumn_evening.jpg/1920px-Kamergersky_Lane_autumn_evening.jpg"
+    ]
+  },
+  {
+    "id": 127,
+    "slug": "eseninu",
+    "title": "Есенину",
+    "city": "Рязань",
+    "region": "Рязанская область",
+    "pickedPage": "Памятник Есенину (Рязань)",
+    "count": 4,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D1%8E_%D0%95%D1%81%D0%B5%D0%BD%D0%B8%D0%BD%D1%83_%D0%B2_%D0%A0%D1%8F%D0%B7%D0%B0%D0%BD%D0%B8.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%91%D1%8E%D1%81%D1%82_%D0%95%D1%81%D0%B5%D0%BD%D0%B8%D0%BD%D0%B0_%D0%B2_%D0%9D%D0%B0%D1%82%D0%B0%D1%88%D0%B8%D0%BD%D0%BE%D0%BC_%D0%BF%D0%B0%D1%80%D0%BA%D0%B5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D1%81.%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D0%BE%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A1.%D0%90.%D0%95%D1%81%D0%B5%D0%BD%D0%B8%D0%BD%D1%83.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Coat_of_Arms_of_Ryazan_large.png?width=1600"
+    ]
+  },
+  {
+    "id": 128,
+    "slug": "vysockomu",
+    "title": "Высоцкому",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Высоцкому (Москва)",
+    "count": 1,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/77/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%92%D1%8B%D1%81%D0%BE%D1%86%D0%BA%D0%B8%D0%B9_-_%D0%BF%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%28cropped%29.jpg"
+    ]
+  },
+  {
+    "id": 129,
+    "slug": "bulgakovu-na-patriarshih",
+    "title": "Булгакову на Патриарших",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Булгакову (Москва, Патриаршие пруды)",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Moscow_05-2017_img39_Patriarshiy_Pond.jpg/1920px-Moscow_05-2017_img39_Patriarshiy_Pond.jpg"
+    ]
+  },
+  {
+    "id": 130,
+    "slug": "dostoevskomu",
+    "title": "Достоевскому",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Памятник Достоевскому (Санкт-Петербург)",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A4._%D0%9C._%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%BC%D1%83_(%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 131,
+    "slug": "car-kolokol-na-postamente",
+    "title": "Царь-колокол на постаменте",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Царь-колокол",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/e/e9/Moskau-Grosse-Glocke_Mai_08.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moskau-Grosse-Glocke_Mai_08.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Page_333_of_%22Through_Siberia%22_(1883)._The_Great_Bell_of_Moscow_and_Ivan_Veliki_Tower.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/N.A.Naidenov_(1884)._Views_of_Moscow._32._Kolokol_(cropped).png?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Tsar-kolokol.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 132,
+    "slug": "car-pushka",
+    "title": "Царь-пушка",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Царь-пушка",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Moscow_July_2011-10a.jpg/1920px-Moscow_July_2011-10a.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moscow_July_2011-10a.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0._%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%B8%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80.%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC_%D0%A6%D0%B0%D1%80%D1%8C-%D0%9F%D1%83%D1%88%D0%BA%D0%B0_-_%D0%A6%D0%B0%D1%80%D1%8C%D0%9F%D1%83%D1%88%D0%BA%D0%B0_1890%D0%B3.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moscow_Kremlin_map_-_Tsar_Cannon.png?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/(Great_Gun_of_Moscow)_-_Clarke_Edward_Daniel_-_1810.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 133,
+    "slug": "borodinskaya-panorama-monument",
+    "title": "Бородинская панорама (монумент)",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 134,
+    "slug": "parovoz-pamyatnik",
+    "title": "Паровоз-памятник",
+    "city": "Тамбов",
+    "region": "Тамбовская область",
+    "pickedPage": "Паровоз-памятник Эу708-64",
+    "count": 4,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B7_%D0%BD%D0%B0_%D0%B6.%D0%B4_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%D0%92%D0%BE%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B9-1%2C_%D0%BF%D0%B5%D1%80%D1%80%D0%BE%D0%BD_2H1A2084WI.jpg/1920px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B7_%D0%BD%D0%B0_%D0%B6.%D0%B4_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%D0%92%D0%BE%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B9-1%2C_%D0%BF%D0%B5%D1%80%D1%80%D0%BE%D0%BD_2H1A2084WI.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B7_%D0%BD%D0%B0_%D0%B6.%D0%B4_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%D0%92%D0%BE%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B9-1%2C_%D0%BF%D0%B5%D1%80%D1%80%D0%BE%D0%BD_2H1A2084WI.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%80%D0%B8%D0%B1%D1%8B%D1%82%D0%B8%D0%B5_%D0%AD%D1%83708-64_%D0%BD%D0%B0_%D0%A4%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D1%81%D0%BA%D0%B8%D0%B9_%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB_7_%D1%84%D0%B5%D0%B2%D1%80%D0%B0%D0%BB%D1%8F_1943.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA-%D0%BF%D0%B0%D1%80%D0%BE%D0%B2%D0%BE%D0%B7_%D0%BD%D0%B0_%D0%B6.%D0%B4_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8_%D0%92%D0%BE%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D1%82%D1%80%D0%BE%D0%B9-1%2C_%D0%BF%D0%B5%D1%80%D1%80%D0%BE%D0%BD_2H1A2088WI.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 135,
+    "slug": "letchiku-chkalovu",
+    "title": "Лётчику Чкалову",
+    "city": "Нижний Новгород",
+    "region": "Нижегородская область",
+    "pickedPage": "Памятник Валерию Чкалову",
+    "count": 4,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Chkalov-Monument.jpg/1920px-Chkalov-Monument.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Chkalov-Monument.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Central_Nizhny_Novgorod.png?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Russia_%D0%9D%D0%9D%D0%BE%D0%B2._%D0%A7%D0%BA%D0%B0%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%BB%D0%B5%D1%81%D1%82%D0%BD%D0%B8%D1%86%D0%B0._IMG_7851_2014_e1.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 136,
+    "slug": "gagarinu-v-gagarine",
+    "title": "Гагарину в Гагарине",
+    "city": "Гагарин",
+    "region": "Смоленская область",
+    "pickedPage": "Памятник Гагарину (Москва)",
+    "count": 4,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/SF10084a.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D1%83_(%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C_%D0%9B%D0%B5%D0%BD%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D1%83(%D1%84%D1%80%D0%B0%D0%B3%D0%BC%D0%B5%D0%BD%D1%82)%2C%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0_IMG_2004_e1sm_2006.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/RR3111-0009R.png?width=1600"
+    ]
+  },
+  {
+    "id": 137,
+    "slug": "ciolkovskomu",
+    "title": "Циолковскому",
+    "city": "Калуга",
+    "region": "Калужская область",
+    "pickedPage": "Памятник Константину Циолковскому",
+    "count": 3,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D0%B0%D1%8F_%D0%BC%D0%B0%D1%80%D0%BA%D0%B0_%C2%AB%D0%9A%D0%B0%D0%BB%D1%83%D0%B3%D0%B0_650_%D0%BB%D0%B5%D1%82%C2%BB.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Kaluga_20220920_122243.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 138,
+    "slug": "korolevu",
+    "title": "Королёву",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Королёву и Гагарину",
+    "count": 4,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Taganrog_Korolev_Gagarin_01.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Korolev_Gagarin_01.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Taganrog_Korolev_Gagarin_03.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Taganrog_Korolev_Gagarin_02.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 139,
+    "slug": "pervomu-sputniku",
+    "title": "Первому спутнику",
+    "city": "Королёв",
+    "region": "Московская область",
+    "pickedPage": null,
+    "count": 3,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%B4%D1%80%D0%BE%D0%BC_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D1%83_%D0%BD%D0%B0_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B5_(2).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%B4%D1%80%D0%BE%D0%BC_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D1%83_%D0%BD%D0%B0_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B5_(3).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%BE%D1%81%D0%BC%D0%BE%D0%B4%D1%80%D0%BE%D0%BC_%D0%91%D0%B0%D0%B9%D0%BA%D0%BE%D0%BD%D1%83%D1%80%2C_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B5%D1%80%D0%B2%D0%BE%D0%BC%D1%83_%D1%81%D0%BF%D1%83%D1%82%D0%BD%D0%B8%D0%BA%D1%83_%D0%BD%D0%B0_%D0%93%D0%B0%D0%B3%D0%B0%D1%80%D0%B8%D0%BD%D1%81%D0%BA%D0%BE%D0%BC_%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B5_(1).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 140,
+    "slug": "lomonosovu",
+    "title": "Ломоносову",
+    "city": "Архангельск",
+    "region": "Архангельская область",
+    "pickedPage": "Памятник М. В. Ломоносову (Архангельск)",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA.%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9B%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%83.jpg/1920px-%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB%D1%8C%D1%81%D0%BA.%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9B%D0%BE%D0%BC%D0%BE%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%83.jpg"
+    ]
+  },
+  {
+    "id": 141,
+    "slug": "kotu-pavlova",
+    "title": "Коту Павлова",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Памятник И. П. Павлову (Санкт-Петербург)",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Spb_06-2012_Palace_Embankment_various_01.jpg/1920px-Spb_06-2012_Palace_Embankment_various_01.jpg"
+    ]
+  },
+  {
+    "id": 142,
+    "slug": "aleksandrovskaya-kolonna",
+    "title": "Александровская колонна",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Александровская колонна",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Alexander_column.jpg/1920px-Alexander_column.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Alexander_column.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Colonna_di_Traiano.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Colonne_Vend%C3%B4me.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A1%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F_%D0%B2%D1%8B%D1%81%D0%BE%D1%82%D0%B0_%D0%BA%D0%BE%D0%BB%D0%BE%D0%BD%D0%BD_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B0_I%2C_%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD%D0%B0%2C_%D0%A2%D1%80%D0%B0%D1%8F%D0%BD%D0%B0%2C_%D0%9F%D0%BE%D0%BC%D0%BF%D0%B5%D1%8F_%D0%B8_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%B8%D0%BD%D0%B0%2C1836%D0%B3_%D0%93%D0%98%D0%9C.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 143,
+    "slug": "rostral-nye-kolonny",
+    "title": "Ростральные колонны",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Ростральные колонны",
+    "count": 3,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/2/24/1912_Rostral_column.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/1912_Rostral_column.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/099Pincio.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 144,
+    "slug": "pamyatnik-zodchim",
+    "title": "Памятник зодчим",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%BE%D0%B4%D1%87%D0%B8%D0%BC.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%BE%D0%B4%D1%87%D0%B8%D0%BC_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8F.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%BE%D0%B4%D1%87%D0%B8%D0%BC_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8F.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%BE%D0%B4%D1%87%D0%B8%D0%BC_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9A%D0%BF%D0%B5%D0%BC%D0%BB%D1%8F_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%8C._%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8C._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%BE%D0%B4%D1%87%D0%B8%D0%BC_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%9A%D1%80%D0%B5%D0%BC%D0%BB%D1%8F_%D0%B8_%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B2%D0%B5%D1%89%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%D0%A1%D0%BE%D0%B1%D0%BE%D1%80.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 145,
+    "slug": "pamyatnik-ostankinskoy-telebashne",
+    "title": "Памятник «Останкинской телебашне»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 146,
+    "slug": "monument-fonarschik",
+    "title": "Монумент «Фонарщик»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 147,
+    "slug": "pamyatnik-pochtovomu-yaschiku",
+    "title": "Памятник «Почтовому ящику»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 148,
+    "slug": "pamyatnik-vodozabornoy-bashne",
+    "title": "Памятник водозаборной башне",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 149,
+    "slug": "pamyatnik-moskovskomu-metro",
+    "title": "Памятник московскому метро",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник князю Даниилу Московскому",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/7/7d/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D0%B2._%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D1%83_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC%D1%83_%28%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B0%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D0%B2._%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D1%83_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC%D1%83_(%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B0).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A7%D0%B0%D1%81%D0%BE%D0%B2%D0%BD%D1%8F_%D1%81%D0%B2._%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_(%D0%BF%D1%80%D1%8F%D0%BC%D0%BE).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D1%8B%D0%B9_%D0%9A%D1%80%D0%B5%D1%81%D1%82_%D1%83_%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BD%D0%B8_%D1%81%D0%B2._%D0%94%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D0%B0_%D0%9C%D0%BE%D1%81%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A4%D0%BE%D0%BD%D1%82%D0%B0%D0%BD_%D0%BD%D0%B0_%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%B8_%D0%A1%D0%B5%D1%80%D0%BF%D1%83%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F_%D0%97%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%B0_(%D1%84%D0%BE%D1%82%D0%BE_%E2%80%94_%D0%B0%D0%BF%D1%80%D0%B5%D0%BB%D1%8C_2026).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 150,
+    "slug": "monument-druzhba",
+    "title": "Монумент «Дружба»",
+    "city": "Королёв",
+    "region": "Московская область",
+    "pickedPage": "Дружба народов (монумент, Ижевск)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Forever_with_Russia_monument%2C_Izhevsk-31.jpg/1920px-Forever_with_Russia_monument%2C_Izhevsk-31.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Forever_with_Russia_monument%2C_Izhevsk-31.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%B4%D1%80%D1%83%D0%B6%D0%B1%D1%8B_%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2_2.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Forever_with_Russia_monument%2C_Izhevsk-4.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Forever_with_Russia_monument%2C_Izhevsk-2.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 151,
+    "slug": "pamyatnik-elektronik",
+    "title": "Памятник «Электроник»",
+    "city": "Смоленск",
+    "region": "Смоленская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 152,
+    "slug": "monument-sibirskomu-kotu",
+    "title": "Монумент «Сибирскому коту»",
+    "city": "Тюмень",
+    "region": "Тюменская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 153,
+    "slug": "pamyatnik-brodyachey-sobake",
+    "title": "Памятник бродячей собаке",
+    "city": "Тюмень",
+    "region": "Тюменская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D1%80%D0%B8%D0%BA_%D0%B1%D1%80%D0%BE%D0%B4%D1%8F%D1%87%D0%B5%D0%B9_%D1%81%D0%BE%D0%B1%D0%B0%D0%BA%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 154,
+    "slug": "pamyatnik-uglyu",
+    "title": "Памятник углю",
+    "city": "Кемерово",
+    "region": "Кемеровская область",
+    "pickedPage": null,
+    "count": 1,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%D0%BC%D1%83_%D1%83%D0%B3%D0%BB%D1%8E.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 155,
+    "slug": "pamyatnik-shahteru",
+    "title": "Памятник шахтёру",
+    "city": "Кемерово",
+    "region": "Кемеровская область",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%88%D0%B0%D1%85%D1%82%D1%91%D1%80%D1%83.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%88%D0%B0%D1%85%D1%82%D1%91%D1%80%D1%83_-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%88%D0%B0%D1%85%D1%82%D1%91%D1%80%D1%83_-_2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%88%D0%B0%D1%85%D1%82%D1%91%D1%80%D1%83_%D0%BD%D0%B0_%D1%83%D0%BB%D0%B8%D1%86%D0%B5_%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%B0_1.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%88%D0%B0%D1%85%D1%82%D1%91%D1%80%D1%83_%D0%BD%D0%B0_%D1%83%D0%BB%D0%B8%D1%86%D0%B5_%D0%9A%D0%B8%D1%80%D0%BE%D0%B2%D0%B0_2.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 156,
+    "slug": "pamyatnik-metallurgu",
+    "title": "Памятник металлургу",
+    "city": "Новокузнецк",
+    "region": "Кемеровская область",
+    "pickedPage": null,
+    "count": 3,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%D1%83_%D0%9F.%D0%9F._%D0%90%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%83.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%D1%83_%D0%90%D0%BD%D0%BE%D1%81%D0%BE%D0%B2%D1%83_%D0%9F.%D0%9F..JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9B%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D0%BE%D0%BC%D1%83_%D1%81%D1%82%D0%B0%D0%BB%D0%B5%D0%B2%D0%B0%D1%80%D1%83_%D0%B8_%D0%BC%D0%B5%D1%82%D0%B0%D0%BB%D0%BB%D1%83%D1%80%D0%B3%D1%83_30-%D1%85_%D0%B3%D0%BE%D0%B4%D0%BE%D0%B2-_%D0%90.%D0%9D.%D0%93%D1%80%D1%8F%D0%B7%D0%BD%D0%BE%D0%B2%D1%83.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 157,
+    "slug": "pamyatnik-angel-hranitel",
+    "title": "Памятник «Ангел-хранитель»",
+    "city": "Уфа",
+    "region": "Республика Башкортостан",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B3%D0%B5%D0%BB-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%98%D0%BA%D0%BE%D0%BD%D0%B0_%D0%90%D0%BD%D0%B3%D0%B5%D0%BB-%D0%A5%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B3%D0%B5%D0%BB-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C.png?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B3%D0%B5%D0%BB-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C_%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D1%8F.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%22%D0%90%D0%BD%D0%B3%D0%B5%D0%BB_%D0%A5%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%22.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 158,
+    "slug": "pamyatnik-geologam",
+    "title": "Памятник геологам",
+    "city": "Ухта",
+    "region": "Республика Коми",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0%D0%BC_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0%D0%BC%2C_monument_geologist._-_panoramio.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0%D0%BC_%D0%96%D0%B5%D0%BB%D0%B5%D0%B7%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA_%D0%9A%D1%83%D1%80%D1%81%D0%BA%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_17_%D0%BD%D0%BE%D1%8F%D0%B1%D1%80%D1%8F_1951.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B0%D0%BC_%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D1%88%D0%B8%D0%BC_17_11_1951.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 159,
+    "slug": "pamyatnik-aviakonstruktoru",
+    "title": "Памятник авиаконструктору",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник авиаконструктору Корытину",
+    "count": 3,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Anapa_-_Korytin_Andrey_Sergeevich.JPG/1920px-Anapa_-_Korytin_Andrey_Sergeevich.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Anapa_-_Korytin_Andrey_Sergeevich.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0_%D0%BD%D0%B0_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%B5_%D0%9A%D0%BE%D1%80%D1%8B%D1%82%D0%B8%D0%BD%D1%83_(%D0%90%D0%BD%D0%B0%D0%BF%D0%B0).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 160,
+    "slug": "pamyatnik-zaschitnikam-neba",
+    "title": "Памятник «Защитникам неба»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Защитникам неба Москвы (памятник)",
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D1%81%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/1825._%D0%9B%D0%B5%D0%B1%D1%8F%D0%B6%D1%8C%D0%B5._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D0%BB%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D1%81%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B0_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B0%D1%8F_%D0%BF%D0%BB%D0%B8%D1%82%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D1%81%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B0.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B8%D0%BA%D0%B0%D0%BC_%D0%A1%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D0%BD%D0%B5%D0%B1%D0%B0_1.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 161,
+    "slug": "pamyatnik-russkomu-hakeru",
+    "title": "Памятник русскому хакеру",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 162,
+    "slug": "pamyatnik-tishine",
+    "title": "Памятник тишине",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D0%B7%D0%B5%D1%80._%D0%92_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%92_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B5_%D1%81%D0%BB%D1%8B%D1%88%D0%B5%D0%BD_%D1%88%D0%B5%D0%BF%D0%BE%D1%82_%D0%BB%D1%8C%D0%B4%D0%B8%D0%BD.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%22%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B4%D1%83%D0%BC_%D1%8F_%D0%B2_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B5_%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BC%D0%B0%D0%BB...%22.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%90%D0%B2%D0%B4%D0%B5%D0%B5%D0%B2._%D0%92_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B5_%D0%B3%D0%BE%D1%80._%D0%A5%D0%BE%D0%BB%D1%81%D1%82%2C_%D0%BC%D0%B0%D1%81%D0%BB%D0%BE._54%D1%85100._1961.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9B.%D0%AF._%D0%A2%D0%B8%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BA%D0%BE._%C2%AB%D0%A2%D0%B0%D1%82%D1%8C%D1%8F%D0%BD%D0%B0_%D0%B2_%D1%82%D0%B8%D1%88%D0%B8%D0%BD%D0%B5_%D0%BB%D0%B5%D1%81%D0%BE%D0%B2...%C2%BB%2C_1950-1955_(%D0%BA.%2C_%D0%BC._42%E2%9C%9532).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 163,
+    "slug": "monument-moskva-siti",
+    "title": "Монумент «Москва-Сити»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Высокоскоростная магистраль Москва — Санкт-Петербург",
+    "count": 1,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/HighSpeedRailWaysOfRussia.png/1920px-HighSpeedRailWaysOfRussia.png"
+    ]
+  },
+  {
+    "id": 164,
+    "slug": "pamyatnik-pervomu-trolleybusu",
+    "title": "Памятник первому троллейбусу",
+    "city": "Томск",
+    "region": "Томская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 165,
+    "slug": "pamyatnik-tramvayu",
+    "title": "Памятник трамваю",
+    "city": "Нижний Новгород",
+    "region": "Нижегородская область",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%B9%D0%BE%D0%BD_%D0%B7%D1%83%D0%BF%D0%B8%D0%BD%D0%BA%D0%B8_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D1%8E%2CDSC_0803.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%B9%D0%BE%D0%BD_%D0%B7%D1%83%D0%BF%D0%B8%D0%BD%D0%BA%D0%B8_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D1%8E_DSC_0794.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%B9%D0%BE%D0%BD_%D0%B7%D1%83%D0%BF%D0%B8%D0%BD%D0%BA%D0%B8_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D1%8E_DSC_0795.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%B2%D1%96%D0%BB%D1%8C%D0%B9%D0%BE%D0%BD_%D0%B7%D1%83%D0%BF%D0%B8%D0%BD%D0%BA%D0%B8_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D1%8E%2C_2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC'%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BF%D0%B5%D1%80%D1%88%D0%BE%D0%BC%D1%83_%D1%82%D1%80%D0%B0%D0%BC%D0%B2%D0%B0%D1%8E.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 166,
+    "slug": "pamyatnik-russkomu-upryamstvu",
+    "title": "Памятник «Русскому упрямству»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 167,
+    "slug": "pamyatnik-rubashke-bigudichnogo-uzla",
+    "title": "Памятник рубашке бигудичного узла",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 168,
+    "slug": "pamyatnik-vladimiru-svyatomu",
+    "title": "Памятник Владимиру Святому",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Владимиру Великому (Белгород)",
+    "count": 5,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_to_Prince_Vladimir_-_from_panoramio.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%92%D0%B8%D0%B4_%D0%9D%D0%B0_%D0%A5%D0%B0%D1%80%D0%B3%D0%BE%D1%80%D1%83.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/VladimirGreat-.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B5%D1%88%D0%B5%D1%85%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9_%D0%BC%D0%BE%D1%81%D1%82.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D1%81%D1%82_%D0%9D%D0%B0%D0%B4_%D0%92%D0%B0%D1%82%D1%83%D1%82%D0%B8%D0%BD%D0%B0.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 169,
+    "slug": "kirillu-i-mefodiyu",
+    "title": "Кириллу и Мефодию",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Кириллу и Мефодию (Москва)",
+    "count": 4,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/3/30/%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D1%83_%D0%B8_%D0%9C%D0%B5%D1%84%D0%BE%D0%B4%D0%B8%D1%8E_-_panoramio.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%B8%D1%80%D0%B8%D0%BB%D0%BB%D1%83_%D0%B8_%D0%9C%D0%B5%D1%84%D0%BE%D0%B4%D0%B8%D1%8E_-_panoramio.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/AlexeyII.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/KlykovVM-1992.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 170,
+    "slug": "pamyatnik-krescheniyu-rusi",
+    "title": "Памятник Крещению Руси",
+    "city": "Севастополь",
+    "region": "Севастополь",
+    "pickedPage": "Памятник князю Владимиру (Севастополь)",
+    "count": 1,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/4/46/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%BA%D0%BD%D1%8F%D0%B7%D1%8E_%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D1%83.jpg"
+    ]
+  },
+  {
+    "id": 171,
+    "slug": "sergiyu-radonezhskomu",
+    "title": "Сергию Радонежскому",
+    "city": "Радонеж",
+    "region": "Московская область",
+    "pickedPage": "Памятник Сергию Радонежскому",
+    "count": 5,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/5/52/1000_Sergy_Rad.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/1000_Sergy_Rad.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/DonskoyRelief5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Moscow_July_2011-51.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monuments_and_memorials_in_Orenburg_(October_2025)_-_0_17.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 172,
+    "slug": "serafimu-sarovskomu",
+    "title": "Серафиму Саровскому",
+    "city": "Курск",
+    "region": "Курская область",
+    "pickedPage": "Памятник Серафиму Саровскому (Орёл)",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%A1%D0%B5%D1%80%D0%B0%D1%84%D0%B8%D0%BC%D1%83_%D0%A1%D0%B0%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%BC%D1%83_%D0%B2_%D0%9E%D1%80%D0%BB%D0%B5.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 173,
+    "slug": "ioannu-kronshtadtskomu",
+    "title": "Иоанну Кронштадтскому",
+    "city": "Кронштадт",
+    "region": "Ленинградская область",
+    "pickedPage": null,
+    "count": 2,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/1374._%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%98%D0%BE%D0%B0%D0%BD%D0%BD%D1%83_%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82%D1%81%D0%BA%D0%BE%D0%BC%D1%83.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%98%D0%BE%D0%B0%D0%BD%D0%BD%D1%83_%D0%9A%D1%80%D0%BE%D0%BD%D1%88%D1%82%D0%B0%D0%B4%D1%82%D1%81%D0%BA%D0%BE%D0%BC%D1%83.%D0%90%D0%B2%D1%82%D0%BE%D1%80_%D0%9A%D0%B0%D1%82%D0%B8%D0%B1_%D0%9C%D0%B0%D0%BC%D0%B5%D0%B4%D0%BE%D0%B2.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 174,
+    "slug": "andreyu-rublevu",
+    "title": "Андрею Рублёву",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник Андрею Рублёву (Москва)",
+    "count": 2,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%8E_%D0%A0%D1%83%D0%B1%D0%BB%D0%B5%D0%B2%D1%83.JPG/1920px-%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%8E_%D0%A0%D1%83%D0%B1%D0%BB%D0%B5%D0%B2%D1%83.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D0%B5%D1%8E_%D0%A0%D1%83%D0%B1%D0%BB%D0%B5%D0%B2%D1%83.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 175,
+    "slug": "pamyatnik-opavshim-voinam-muchenikam",
+    "title": "Памятник опавшим воинам-мученикам",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 176,
+    "slug": "pamyatnik-nikolayu-chudotvorcu",
+    "title": "Памятник Николаю Чудотворцу",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник рыбакам и памятник Николаю Чудотворцу",
+    "count": 2,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4_2014_%28196%29.jpg/1920px-%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4_2014_%28196%29.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9A%D0%B0%D0%BB%D0%B8%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4_2014_(196).jpg?width=1600"
+    ]
+  },
+  {
+    "id": 177,
+    "slug": "pamyatnik-svyatym-petru-i-fevronii",
+    "title": "Памятник Святым Петру и Февронии",
+    "city": "Муром",
+    "region": "Владимирская область",
+    "pickedPage": "Памятник князю Петру и княгине Февронии (Батайск)",
+    "count": 2,
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/6/67/Murom_pokrov.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D0%B2%D1%8F%D1%82%D1%8B%D0%BC_%D0%9F%D0%B5%D1%82%D1%80%D1%83_%D0%B8_%D0%A4%D0%B5%D0%B2%D1%80%D0%BE%D0%BD%D0%B8%D0%B8%2C_%D0%91%D0%B0%D1%82%D0%B0%D0%B9%D1%81%D0%BA.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 178,
+    "slug": "pamyatnik-zhertvam-politicheskih-repressiy",
+    "title": "Памятник жертвам политических репрессий",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Соловецкий камень (Москва)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Lubyanka_Square_9.jpg/1920px-Lubyanka_Square_9.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Lubyanka_Square_9.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/19240000-rail_connection_solovki.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Lubyanka_Square_1.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Lubyanka_Square_2.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 179,
+    "slug": "mamaev-kurgan",
+    "title": "Мамаев курган",
+    "city": "Волгоград",
+    "region": "Волгоградская область",
+    "pickedPage": "Мамаев курган",
+    "count": 5,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/MotherlandCalls1984.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B0%D0%BC%D0%B0%D0%B5%D0%B2_%D0%BA%D1%83%D1%80%D0%B3%D0%B0%D0%BD_-_panoramio_(2).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D1%8C_%D0%93%D0%B5%D1%80%D0%BE%D0%B5%D0%B2-2.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A0%D0%BE%D0%B4%D0%B8%D0%BD%D0%B0-%D0%BC%D0%B0%D1%82%D1%8C_%D0%B7%D0%BE%D0%B2%D0%B5%D1%82!.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/AboutCapsule.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 180,
+    "slug": "zatoplennym-korablyam",
+    "title": "Затопленным кораблям",
+    "city": "Севастополь",
+    "region": "Севастополь",
+    "pickedPage": "Памятник затопленным кораблям",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%B2_%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5.jpg/1920px-%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%B2_%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%B2_%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC_%D0%B2_%D0%A1%D0%B5%D0%B2%D0%B0%D1%81%D1%82%D0%BE%D0%BF%D0%BE%D0%BB%D0%B5.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%97%D0%B0%D1%82%D0%BE%D0%BF%D0%BB%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC_-_%D0%9E%D1%80%D0%B5%D0%BB_%D0%BD%D0%B0_%D0%B2%D0%B5%D1%80%D1%88%D0%B8%D0%BD%D0%B5.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D1%8C%D0%B5%D0%B4%D0%B5%D1%81%D1%82%D0%B0%D0%BB_%D0%BF%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA%D0%B0_%D0%B7%D0%B0%D1%82%D0%BE%D0%BD%D1%83%D0%B2%D1%88%D0%B8%D0%BC_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%8F%D0%BC.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 181,
+    "slug": "pamyatnik-podvodnoy-lodke-kursk",
+    "title": "Памятник подводной лодке «Курск»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 182,
+    "slug": "moryakam-desantnikam",
+    "title": "Морякам-десантникам",
+    "city": "Новороссийск",
+    "region": "Краснодарский край",
+    "pickedPage": "Малая земля (мемориал)",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Museum-reserve_%22Malaya_zemlya%22_9.jpg/1920px-Museum-reserve_%22Malaya_zemlya%22_9.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB_%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F_%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BD%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D1%8C-%D0%BC%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB_%C2%AB%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F%C2%BB_%E2%80%94_%D1%81%D1%82%D0%B5%D0%BB%D0%B0.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Imagedcim4.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%B5%D0%BC%D0%BE%D1%80%D0%B8%D0%B0%D0%BB_%C2%AB%D0%9C%D0%B0%D0%BB%D0%B0%D1%8F_%D0%B7%D0%B5%D0%BC%D0%BB%D1%8F%C2%BB_%D1%81_%D0%B3%D0%B0%D0%BB%D0%B5%D1%80%D0%B5%D0%B5%D0%B9_%D0%B1%D0%BE%D0%B5%D0%B2%D0%BE%D0%B9_%D1%81%D0%BB%D0%B0%D0%B2%D1%8B_02.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 183,
+    "slug": "pamyatnik-svyazistam",
+    "title": "Памятник связистам",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%A1%D0%B2%D1%8F%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D0%BC_%D0%94%D0%BE%D0%BD%D0%B0%C2%BB.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%A1%D0%B2%D1%8F%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D0%BC_%D0%94%D0%BE%D0%BD%D0%B0%C2%BB_2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%22%D0%A1%D0%B2%D1%8F%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D0%BC_%D0%94%D0%BE%D0%BD%D0%B0%22.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%81%D0%B2%D1%8F%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D0%BC_(%D0%A3%D0%BB%D1%8C%D1%8F%D0%BD%D0%BE%D0%B2%D1%81%D0%BA).jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D1%87%D0%B5%D1%82%D1%8B%D1%80%D1%91%D0%BC_%D1%81%D0%B2%D1%8F%D0%B7%D0%B8%D1%81%D1%82%D0%B0%D0%BC.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 184,
+    "slug": "pamyatnik-voennym-voditelyam",
+    "title": "Памятник военным водителям",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник воинам-водителям",
+    "count": 5,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Bryansk-P1120720.JPG/1920px-Bryansk-P1120720.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Bryansk-P1120720.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_to_military_drivers.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_to_military_drivers_-_trucks.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Monument_to_military_drivers_-_sign.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 185,
+    "slug": "pamyatnik-pogranichnikam",
+    "title": "Памятник пограничникам",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник героям-пограничникам и служебным собакам",
+    "count": 3,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/%D0%9B%D0%B5%D0%B3%D0%B5%D0%B4%D0%B7%D0%B8%D0%BD%D0%B52.JPG/1920px-%D0%9B%D0%B5%D0%B3%D0%B5%D0%B4%D0%B7%D0%B8%D0%BD%D0%B52.JPG",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B3%D0%B5%D0%B4%D0%B7%D0%B8%D0%BD%D0%B52.JPG?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9B%D0%B5%D0%B3%D0%B5%D0%B4%D0%B7%D0%B8%D0%BD%D0%B51.JPG?width=1600"
+    ]
+  },
+  {
+    "id": 186,
+    "slug": "pamyatnik-proschanie-slavyanki",
+    "title": "Памятник «Прощание славянки»",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Прощание славянки (памятник)",
+    "count": 5,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B8%C2%BB_2.jpeg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B8%C2%BB_10.jpeg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B8%C2%BB_6.jpeg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B8%C2%BB_5.jpeg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%C2%AB%D0%9F%D1%80%D0%BE%D1%89%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%BB%D0%B0%D0%B2%D1%8F%D0%BD%D0%BA%D0%B8%C2%BB_4.jpeg?width=1600"
+    ]
+  },
+  {
+    "id": 187,
+    "slug": "pamyatnik-morskomu-pehotincu",
+    "title": "Памятник морскому пехотинцу",
+    "city": "Мурманск",
+    "region": "Мурманская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 188,
+    "slug": "pamyatnik-rubezha-oborony-moskvy",
+    "title": "Памятник рубежа обороны Москвы",
+    "city": "Лобня",
+    "region": "Московская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 189,
+    "slug": "pamyatnik-voinam-internacionalistam",
+    "title": "Памятник воинам-интернационалистам",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": "Памятник воинам-интернационалистам",
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9A%D1%80%D0%B8%D0%B2%D0%BE%D0%B9_%D0%A0%D0%BE%D0%B3._%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D0%B8%D0%BD%D0%B0%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BC_%D0%B2_%D1%81%D0%BA%D0%B2%D0%B5%D1%80%D0%B5_%D0%93%D0%B5%D1%80%D0%BE%D0%B5%D0%B2_%D0%9D%D0%B5%D0%B1%D0%B5%D1%81%D0%BD%D0%BE%D0%B9_%D0%A1%D0%BE%D1%82%D0%BD%D0%B8.JPG?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D0%B8%D0%BD%D0%B0%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BC_5.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D0%B8%D0%BD%D0%B0%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BC_2.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D0%B8%D0%BD%D0%B0%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BC_1.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B2%D0%BE%D0%B8%D0%BD%D0%B0%D0%BC-%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B0%D0%BC_3.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 190,
+    "slug": "monument-razorvannoe-kol-co",
+    "title": "Монумент «Разорванное кольцо»",
+    "city": "дер. Коккорево",
+    "region": "Ленинградская область",
+    "pickedPage": null,
+    "count": 5,
+    "images": [
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE_%D0%91%D0%BB%D0%BE%D0%BA%D0%B0%D0%B4%D1%8B_2H1A7986WI.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%C2%BB_%D0%BD%D0%B0_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B5_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8_2%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%C2%BB_%D0%BD%D0%B0_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B5_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8_H1A8155WI.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%C2%BB_%D0%BD%D0%B0_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B5_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8_2H1A8031WI.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%C2%BB_%D0%BD%D0%B0_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B5_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8_2H1A8091WI.jpg?width=1600",
+      "https://commons.wikipedia.org/wiki/Special:FilePath/%D0%9C%D0%BE%D0%BD%D1%83%D0%BC%D0%B5%D0%BD%D1%82_%C2%AB%D0%A0%D0%B0%D0%B7%D0%BE%D1%80%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BB%D1%8C%D1%86%D0%BE%C2%BB_%D0%BD%D0%B0_%D0%94%D0%BE%D1%80%D0%BE%D0%B3%D0%B5_%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8_2H1A8118WI.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 191,
+    "slug": "cvetok-zhizni",
+    "title": "Цветок жизни",
+    "city": "Всеволожск",
+    "region": "Ленинградская область",
+    "pickedPage": "Цветок жизни (мемориал)",
+    "count": 4,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Flower_of_Life_(Memorial)_general_view.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A6%D0%B2%D0%B5%D1%82%D0%BE%D0%BA_%D0%96%D0%B8%D0%B7%D0%BD%D0%B8.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/SavichevaDiary1982.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%90%D0%BB%D0%BB%D0%B5%D1%8F_900_%D0%B1%D0%B5%D1%80%D1%91%D0%B7.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 192,
+    "slug": "pamyatnik-pogibshim-rabochim-izhorskih-zavodov",
+    "title": "Памятник погибшим рабочим Ижорских заводов",
+    "city": "Колпино",
+    "region": "Санкт-Петербург",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 193,
+    "slug": "sevastopol-skiy-bul-var-i-bastion-1812",
+    "title": "Севастопольский бульвар и Бастион 1812",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 194,
+    "slug": "pamyatnik-opolchencam",
+    "title": "Памятник «Ополченцам»",
+    "city": "Самара",
+    "region": "Самарская область",
+    "pickedPage": "Памятник ополченцам Пролетарского района",
+    "count": 1,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%9E%D0%BF%D0%BE%D0%BB%D1%87%D0%B5%D0%BD%D1%86%D0%B0%D0%BC_%D0%9F%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D1%80%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_%D1%80%D0%B0%D0%B9%D0%BE%D0%BD%D0%B0.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 195,
+    "slug": "pamyatnik-tanku-t-34",
+    "title": "Памятник танку Т-34",
+    "city": "Челябинск",
+    "region": "Челябинская область",
+    "pickedPage": "Памятник танку Т-34 (Тверь)",
+    "count": 3,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/%D0%A2%D0%B0%D0%BD%D0%BA_%D0%A2-34_-.jpg/1920px-%D0%A2%D0%B0%D0%BD%D0%BA_%D0%A2-34_-.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%BD%D0%BA_%D0%A2-34_-.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%A2%D0%B0%D0%BD%D0%BA_%D0%A2-34_%D0%A2%D0%B0%D0%B1%D0%BB%D0%B8%D1%87%D0%BA%D0%B0-52.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 196,
+    "slug": "pamyatnik-katyusha",
+    "title": "Памятник «Катюша»",
+    "city": "Санкт-Петербург",
+    "region": "Санкт-Петербург",
+    "pickedPage": "Памятник воинам-водителям БМ-13 «Катюша»",
+    "count": 2,
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/BM13_204802.jpg/1920px-BM13_204802.jpg",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/BM13_204802.jpg?width=1600"
+    ]
+  },
+  {
+    "id": 197,
+    "slug": "pamyatnik-letchikam-istrebitelyam",
+    "title": "Памятник летчикам-истребителям",
+    "city": "Какетск",
+    "region": "Московская область",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 198,
+    "slug": "pamyatnik-boycam-protivovozdushnoy-oborony",
+    "title": "Памятник бойцам противовоздушной обороны",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 199,
+    "slug": "zenitka-na-himkinskom",
+    "title": "Зенитка на Химкинском",
+    "city": "Москва",
+    "region": "Москва",
+    "pickedPage": null,
+    "count": 0,
+    "images": []
+  },
+  {
+    "id": 200,
+    "slug": "pamyatnik-zaschitnikam-zapolyar-ya",
+    "title": "Памятник защитникам Заполярья",
+    "city": "Мурманск",
+    "region": "Мурманская область",
+    "pickedPage": "Памятник Героям-Североморцам, защитникам Заполярья",
+    "count": 5,
+    "images": [
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%D0%BC-%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%BC%D0%BE%D1%80%D1%86%D0%B0%D0%BC.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%D0%BC-%D1%81%D0%B5%D1%80%D0%BE%D0%BC%D0%BE%D1%80%D1%86%D0%B0%D0%BC_01.jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/%D0%9F%D0%B0%D0%BC%D1%8F%D1%82%D0%BD%D0%B8%D0%BA_%D0%93%D0%B5%D1%80%D0%BE%D1%8F%D0%BC-%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BE%D0%BC%D0%BE%D1%80%D1%86%D0%B0%D0%BC_(1).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Severomorsk_(4348914483).jpg?width=1600",
+      "https://ru.wikipedia.org/wiki/Special:FilePath/Severomorsk_(4348936513).jpg?width=1600"
+    ]
+  }
+]

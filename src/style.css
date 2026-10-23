@@ -1,0 +1,191 @@
+@import "tailwindcss";
+
+@theme {
+  --color-memorial-dark: #0a0a0f;
+  --color-memorial-deeper: #101017;
+  --color-memorial-card: #15151f;
+  --color-memorial-card-2: #1a1a26;
+  --color-memorial-border: #26263a;
+  --color-memorial-gold: #c9a84c;
+  --color-memorial-gold-light: #e8d48b;
+  --color-memorial-gold-dim: #8a7235;
+  --color-memorial-accent: #b8860b;
+  --color-memorial-text: #ece9e2;
+  --color-memorial-muted: #9a9aac;
+  --color-memorial-warm: #2a1f14;
+  --color-memorial-red: #8b2500;
+  --font-heading: 'Playfair Display', 'Georgia', serif;
+  --font-body: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+
+/*
+  Шрифты подключаются в index.html через Google Fonts css2
+  (правильные подмножества кириллицы и unicode-range).
+  Дублирующие @font-face здесь были удалены: жёстко зашитый woff2
+  без unicode-range перебивал кириллические подмножества.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-memorial-dark);
+  color: var(--color-memorial-text);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Единый стиль фокуса с клавиатуры для всего сайта */
+:focus-visible {
+  outline: 2px solid var(--color-memorial-gold);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-memorial-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #33334a;
+  border-radius: 5px;
+  border: 2px solid var(--color-memorial-dark);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-memorial-gold-dim);
+}
+
+::selection {
+  background: rgba(201, 168, 76, 0.3);
+  color: var(--color-memorial-gold-light);
+}
+
+/* Плавные появления страниц */
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fade-up-enter-from {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.page-enter-active {
+  transition: opacity 0.45s cubic-bezier(0.16, 1, 0.3, 1),
+    transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.page-leave-active {
+  transition: opacity 0.22s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(22px);
+}
+
+.page-leave-to {
+  opacity: 0;
+}
+
+/* Уважаем настройку «уменьшить движение» */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Общая анимация появления секций */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Появление при прокрутке (директива v-reveal): элемент всплывает вверх.
+   Реализовано через animation, а не transition — чтобы не конфликтовать
+   с hover-переходами карточек. Задержка каскада — в --reveal-delay. */
+.reveal {
+  opacity: 0;
+}
+
+.reveal.revealed {
+  opacity: 1;
+  animation: revealUp 0.75s cubic-bezier(0.16, 1, 0.3, 1) both;
+  animation-delay: var(--reveal-delay, 0ms);
+}
+
+@keyframes revealUp {
+  from {
+    opacity: 0;
+    transform: translateY(26px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Лёгкое «дыхание» золотого градиента в акцентном тексте */
+@keyframes goldShimmer {
+  0%,
+  100% {
+    background-position: 0% 40%;
+  }
+  50% {
+    background-position: 100% 60%;
+  }
+}
+
+/* Пружинка для сердечка при лайке */
+@keyframes likePop {
+  0% {
+    transform: scale(1);
+  }
+  35% {
+    transform: scale(1.4) rotate(-7deg);
+  }
+  65% {
+    transform: scale(0.92) rotate(3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.like-pop {
+  animation: likePop 0.45s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
