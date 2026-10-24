@@ -10,8 +10,8 @@
     }
   ],
   "photosAdded": 0,
-  "newAdded": [],
-  "skippedFiles": [
-    "out-user.json: Expected ',' or '}' after property value in JSON at position 72049 (line 886 column 54)"
-  ]
+  "newAdded": [
+    "«Памятник тёще» (динозавр) (Тула)"
+  ],
+  "skippedFiles": []
 }
