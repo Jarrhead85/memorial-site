@@ -1,0 +1,7 @@
+[out:json][timeout:50];
+(
+  node["tourism"="artwork"](46.75,35.15,46.98,35.55);
+  node["historic"="memorial"](46.75,35.15,46.98,35.55);
+  way["tourism"="artwork"](46.75,35.15,46.98,35.55);
+);
+out center tags;
