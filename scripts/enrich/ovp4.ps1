@@ -1,0 +1,26 @@
+$ErrorActionPreference = 'Continue'
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+$base = 'C:\Users\J\source\memory\memorial-site\scripts\enrich'
+function Esc($s) { [uri]::EscapeDataString($s) }
+
+function OV($name, $query) {
+  try {
+    $r = Invoke-WebRequest -Uri 'https://overpass.osm.ch/api/interpreter' -Method Post -Body @{data=$query} -TimeoutSec 120 -UseBasicParsing
+    [IO.File]::WriteAllText((Join-Path $base ($name + '.json')), $r.Content, [Text.Encoding]::UTF8)
+    Write-Output ($name + ' OK len=' + $r.Content.Length)
+  } catch {
+    $resp = $_.Exception.Response; $body=''
+    if ($resp -ne $null) { try { $sr = New-Object IO.StreamReader($resp.GetResponseStream()); $body = $sr.ReadToEnd() } catch {} }
+    Write-Output ($name + ' ERR ' + $_.Exception.Message + ' ' + $body)
+  }
+  Start-Sleep -Seconds 2
+}
+
+OV 'ov_griz' '[out:json][timeout:60];way["highway"]["name"~"Гризодубова"](46.82,35.31,46.88,35.42);out geom;'
+OV 'ov_bkh'  '[out:json][timeout:60];way["highway"]["name"~"Богдана Хмельницького"](46.82,35.31,46.88,35.42);out geom;'
+OV 'ov_ger'  '[out:json][timeout:60];way["highway"]["name"~"Героїв України"](46.82,35.31,46.88,35.42);out geom;'
+OV 'ov_schmidt' '[out:json][timeout:60];(way["leisure"~"park|garden"]["name"~"Шмідта|Шмидта|Schmidt"](46.71,36.73,46.79,36.85);relation["leisure"~"park|garden"]["name"~"Шмідта|Шмидта|Schmidt"](46.71,36.73,46.79,36.85););out center tags;'
+OV 'ov_ener_park' '[out:json][timeout:60];(way["leisure"~"park|garden"](48.455,35.150,48.500,35.230);relation["leisure"~"park|garden"](48.455,35.150,48.500,35.230););out center tags;'
+OV 'ov_ener_hotel' '[out:json][timeout:60];(node["tourism"~"hotel|hostel"](48.455,35.150,48.500,35.230);way["tourism"~"hotel|hostel"](48.455,35.150,48.500,35.230););out center tags;'
+OV 'ov_ener_mon' '[out:json][timeout:60];(node["historic"](48.455,35.150,48.500,35.230);way["historic"](48.455,35.150,48.500,35.230);node["tourism"](48.455,35.150,48.500,35.230););out center tags;'
+OV 'ov_hen_mon' '[out:json][timeout:60];(node["historic"](46.150,34.770,46.205,34.850);way["historic"](46.150,34.770,46.205,34.850);node["tourism"="artwork"](46.150,34.770,46.205,34.850);way["tourism"="artwork"](46.150,34.770,46.205,34.850);node["leisure"="park"](46.150,34.770,46.205,34.850);way["leisure"="park"](46.150,34.770,46.205,34.850););out center tags;'
