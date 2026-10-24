@@ -83,7 +83,7 @@ for (let i = 1; i <= 8; i++) {
 // через форму «Добавить фото» и пайплайн find-photos-*.mjs)
 const NEW_SOURCES = [
   { name: 'out-user.json', requirePhoto: false },
-  ...fs.readdirSync(DIR).filter((f) => /^out-hunt-\d+\.json$/.test(f))
+  ...fs.readdirSync(DIR).filter((f) => /^out-hunt-\d+[a-z]?\.json$/.test(f))
     .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))
     .map((f) => ({ name: f, requirePhoto: false }))
 ]
