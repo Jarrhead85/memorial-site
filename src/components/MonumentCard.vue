@@ -1,53 +1,57 @@
 <template>
-  <router-link :to="`/monument/${monument.slug}`" class="card-link" :aria-label="monument.title">
-    <article class="card">
-      <div class="card-image-wrap">
-        <img
-          v-if="hasPhoto"
-          :src="heroUrl"
-          :alt="monument.title"
-          class="card-image"
-          loading="lazy"
-          decoding="async"
-          @error="imgFailed = true"
-        />
-        <div v-else class="card-placeholder" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="placeholder-icon">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
-            <circle cx="12" cy="13" r="4"/>
-          </svg>
-          <span class="placeholder-text">Фото скоро появится</span>
-        </div>
-        <span class="card-category">{{ monument.category }}</span>
-        <span class="card-photo-source" v-if="hasPhoto">
-          Фото: {{ monument.images[0].source }}
-        </span>
-        <div class="card-vote">
-          <VoteButton :monument-id="monument.id" :initial-likes="monument.likes" />
-        </div>
+  <article class="card">
+    <!-- stretched-link: одна ссылка на всю карточку, интерактивные дети выше по z-index -->
+    <router-link
+      :to="`/monument/${monument.slug}`"
+      class="card-stretch"
+      :aria-label="monument.title"
+    ></router-link>
+    <div class="card-image-wrap">
+      <img
+        v-if="hasPhoto"
+        :src="heroUrl"
+        :alt="monument.title"
+        class="card-image"
+        loading="lazy"
+        decoding="async"
+        @error="imgFailed = true"
+      />
+      <div v-else class="card-placeholder" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" class="placeholder-icon">
+          <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+          <circle cx="12" cy="13" r="4"/>
+        </svg>
+        <span class="placeholder-text">Фото скоро появится</span>
       </div>
-      <div class="card-body">
-        <h3 class="card-title">{{ monument.title }}</h3>
-        <div class="card-meta">
-          <svg class="meta-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-            <circle cx="12" cy="10" r="3"/>
-          </svg>
-          <span class="card-city">{{ monument.city }}</span>
-          <template v-if="monument.year">
-            <span class="card-sep">&middot;</span>
-            <span class="card-year">{{ monument.year }}</span>
-          </template>
-        </div>
-        <p class="card-desc">{{ monument.shortDescription }}</p>
-        <span class="card-more">Читать историю
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
-          </svg>
-        </span>
+      <span class="card-category">{{ monument.category }}</span>
+      <span class="card-photo-source" v-if="hasPhoto">
+        Фото: {{ monument.images[0].source }}
+      </span>
+      <div class="card-vote">
+        <VoteButton :monument-id="monument.id" :initial-likes="monument.likes" />
       </div>
-    </article>
-  </router-link>
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">{{ monument.title }}</h3>
+      <div class="card-meta">
+        <svg class="meta-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+        <span class="card-city">{{ monument.city }}</span>
+        <template v-if="monument.year">
+          <span class="card-sep">&middot;</span>
+          <span class="card-year">{{ monument.year }}</span>
+        </template>
+      </div>
+      <p class="card-desc">{{ monument.shortDescription }}</p>
+      <span class="card-more">Читать историю
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+        </svg>
+      </span>
+    </div>
+  </article>
 </template>
 
 <script setup>
@@ -72,14 +76,8 @@ const heroUrl = computed(() => props.monument.images[0].url)
 </script>
 
 <style scoped>
-.card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
-  height: 100%;
-}
-
 .card {
+  position: relative;
   background: linear-gradient(180deg, var(--color-memorial-card-2) 0%, var(--color-memorial-card) 100%);
   border: 1px solid var(--color-memorial-border);
   border-radius: 16px;
@@ -88,6 +86,15 @@ const heroUrl = computed(() => props.monument.images[0].url)
   display: flex;
   flex-direction: column;
   transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+/* stretched-link: покрывает карточку целиком; интерактивные элементы
+   (кнопка лайка) поднимаются выше по z-index и кликаются независимо */
+.card-stretch {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  border-radius: 16px;
 }
 
 .card:hover {

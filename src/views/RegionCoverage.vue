@@ -44,6 +44,7 @@
           @click="switchTab(tab.value)"
         >
           {{ tab.label }}
+          <span v-if="sortMode === tab.value" class="sort-arrow" aria-hidden="true">{{ sortArrow }}</span>
         </button>
       </div>
       <span class="coverage-caption">Кликните регион, чтобы открыть его памятники в каталоге</span>
@@ -99,14 +100,22 @@ const tabs = [
 const sortMode = ref('gap')
 const sortOrder = ref('desc')
 
+// У каждой вкладки своё осмысленное направление по умолчанию:
+// «Ждут фото» — больше всего ожидающих сверху (desc по «без фото»),
+// «Меньше всего фото» — худшая обеспеченность сверху (asc по проценту),
+// «По количеству» — больше всего памятников сверху (desc).
+const DEFAULT_DIR = { gap: 'desc', pct: 'asc', total: 'desc', alpha: 'asc' }
+
 function switchTab(value) {
   if (sortMode.value === value) {
     sortOrder.value = sortOrder.value === 'desc' ? 'asc' : 'desc'
   } else {
     sortMode.value = value
-    sortOrder.value = 'desc'
+    sortOrder.value = DEFAULT_DIR[value] || 'desc'
   }
 }
+
+const sortArrow = computed(() => (sortOrder.value === 'desc' ? '↓' : '↑'))
 
 const total = computed(() => monuments.value.length)
 
@@ -143,7 +152,8 @@ const sortedRegions = computed(() => {
     return 0
   }
   if (sortMode.value === 'alpha') {
-    list.sort((a, b) => a.region.localeCompare(b.region, 'ru'))
+    const d = sortOrder.value === 'desc' ? -1 : 1
+    list.sort((a, b) => a.region.localeCompare(b.region, 'ru') * d)
   } else {
     list.sort((a, b) => (key(a) - key(b)) * dir || a.region.localeCompare(b.region, 'ru'))
   }
@@ -292,6 +302,12 @@ function pluralCities(n) {
   border-color: var(--color-memorial-gold);
   color: #14100a;
   font-weight: 600;
+}
+
+.sort-arrow {
+  margin-left: 0.25rem;
+  font-size: 0.75rem;
+  opacity: 0.8;
 }
 
 .coverage-caption {

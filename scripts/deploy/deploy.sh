@@ -6,10 +6,12 @@
 #  - отдельный systemd-юнит memorial.service (новый файл, чужие юниты не трогаем);
 #  - приложение слушает 127.0.0.1:8766; наружу отдаётся выбранным способом
 #    (отдельный порт или server-block в nginx — по решению владельца);
+#  - runtime data (БД, config, uploads) — в /var/lib/memorial-site, код read-only;
 #  - nginx/существующие сервисы не перезапускаются этим скриптом.
 set -euo pipefail
 
 APP_DIR=/opt/memorial-site
+DATA_DIR=/var/lib/memorial-site
 APP_PORT=8766
 NODE_VER=v22.14.0   # LTS; ставится ВНУТРЬ $APP_DIR, не в систему
 
@@ -19,12 +21,13 @@ if [[ $EUID -ne 0 ]]; then echo "Запустите от root (sudo)"; exit 1; f
 
 log "OS: $(. /etc/os-release && echo "$PRETTY_NAME")"
 
-# 1) каталог и пользователь (новый системный пользователь, без логина)
+# 1) каталоги и пользователь (новый системный пользователь, без логина)
 if ! id -u memorial >/dev/null 2>&1; then
   useradd --system --home-dir "$APP_DIR" --shell /usr/sbin/nologin memorial
   log "создан пользователь memorial"
 fi
 mkdir -p "$APP_DIR"
+mkdir -p "$DATA_DIR"
 
 # 2) собственный Node.js (только внутрь $APP_DIR/node)
 if [[ ! -x "$APP_DIR/node/bin/node" ]]; then
@@ -52,9 +55,13 @@ fi
 log "сборка dist/"
 "$APP_DIR/node/bin/npm" run build
 
-# 5) права (data/ и src/ пишутся при модерации заявок)
-mkdir -p server/data
-chown -R memorial:memorial "$APP_DIR"
+# 5) права (P0-03): код read-only для memorial, пишет только data dir
+chown -R root:root "$APP_DIR/current" "$APP_DIR/node"
+chmod -R a+rX "$APP_DIR/current" "$APP_DIR/node"
+mkdir -p "$DATA_DIR"
+chown -R memorial:memorial "$DATA_DIR"
+chmod 700 "$DATA_DIR"
+log "код: root:root (read-only для memorial); runtime data: $DATA_DIR"
 
 # 6) systemd-юнит (НОВЫЙ файл; чужие сервисы не трогаем)
 cat > /etc/systemd/system/memorial.service <<UNIT
@@ -65,17 +72,21 @@ After=network.target
 [Service]
 Type=simple
 User=memorial
+Group=memorial
 WorkingDirectory=$APP_DIR/current
 Environment=PORT=$APP_PORT
 Environment=NODE_ENV=production
+Environment=COOKIE_SECURE=1
+Environment=DATA_DIR=$DATA_DIR
 ExecStart=$APP_DIR/node/bin/node server/server.mjs
 Restart=always
 RestartSec=3
-# аудит-безопасность
+# аудит-безопасность: строгая ФС-изоляция (P0-03)
 NoNewPrivileges=true
 PrivateTmp=true
-ProtectSystem=full
-ReadWritePaths=$APP_DIR/current
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=$DATA_DIR
 
 [Install]
 WantedBy=multi-user.target
@@ -96,4 +107,7 @@ fi
 log "ГОТОВО. Наружная публикация — отдельным шагом:"
 log "  вариант А (не трогаем nginx): открыть порт и пускать напрямую"
 log "  вариант Б (HTTPS): server-block в nginx на ваш домен -> proxy_pass http://127.0.0.1:$APP_PORT"
+log "  в nginx ОБЯЗАТЕЛЬНО: proxy_set_header Host \$host; proxy_set_header X-Real-IP \$remote_addr; proxy_set_header X-Forwarded-For \$proxy_add_x_forwarded_for;"
+log "  (без них rate-limit увидит IP nginx вместо клиента)"
 log "Пароль админки печатается ОДИН раз в journalctl -u memorial | grep Password при первом старте"
+log "Runtime data (config.json, заявки, стена): $DATA_DIR — бэкапить эту папку"

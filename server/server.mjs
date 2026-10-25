@@ -1,5 +1,5 @@
 import http from 'node:http'
-import { createHash, randomBytes, timingSafeEqual } from 'node:crypto'
+import { createHash, randomBytes, timingSafeEqual, scryptSync } from 'node:crypto'
 import { gzipSync } from 'node:zlib'
 import { readFileSync, writeFileSync, existsSync, mkdirSync, statSync, renameSync } from 'node:fs'
 import { resolve, dirname, extname, join, normalize, sep } from 'node:path'
@@ -8,11 +8,13 @@ import { fileURLToPath } from 'node:url'
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const ROOT = resolve(__dirname, '..')
 const DIST = join(ROOT, 'dist')
-const DATA_DIR = join(__dirname, 'data')
+// DATA_DIR можно переопределить окружением (deploy: /var/lib/memorial-site)
+const DATA_DIR = process.env.DATA_DIR ? resolve(process.env.DATA_DIR) : join(__dirname, 'data')
 const DATA_FILE = join(DATA_DIR, 'photos.json')
 const WALL_FILE = join(DATA_DIR, 'wall.json')
 const SUGGEST_FILE = join(DATA_DIR, 'monument-suggestions.json')
-const CONFIG_FILE = join(__dirname, 'config.json')
+// config хранится рядом с данными: на проде код read-only, пишет только data dir
+const CONFIG_FILE = process.env.DATA_DIR ? join(DATA_DIR, 'config.json') : join(__dirname, 'config.json')
 const ADMIN_DIR = join(__dirname, 'admin')
 const PORT = Number(process.env.PORT || 8765)
 
@@ -25,18 +27,74 @@ function sha256(input) {
   return createHash('sha256').update(input).digest('hex')
 }
 
+// ---- Безопасные внешние URL (P0-01) ----
+// Продакшен принимает только https; dev допускает http.
+// javascript:, data:, file:, vbscript: и прочие схемы — всегда отказ.
+const IS_PROD = process.env.NODE_ENV === 'production'
+
+function isSafeExternalUrl(raw) {
+  if (typeof raw !== 'string' || raw.length === 0 || raw.length > 2048) return false
+  let url
+  try {
+    url = new URL(raw)
+  } catch {
+    return false
+  }
+  if (url.protocol !== 'https:' && !(url.protocol === 'http:' && !IS_PROD)) return false
+  if (!url.hostname) return false
+  return true
+}
+
+function urlError() {
+  return IS_PROD
+    ? 'Ссылка должна начинаться с https://'
+    : 'Ссылка должна начинаться с http:// или https://'
+}
+
+// ---- Пароль админа: scrypt вместо голого SHA-256 (P1-06) ----
+const LEGACY_SHA256 = /^[a-f0-9]{64}$/
+
+function hashPassword(password) {
+  const N = 16384, r = 8, p = 1
+  const salt = randomBytes(16)
+  const hash = scryptSync(password, salt, 64, { N, r, p })
+  return `scrypt:${N}:${r}:${p}:${salt.toString('hex')}:${hash.toString('hex')}`
+}
+
+function verifyPassword(password, stored) {
+  if (typeof stored !== 'string') return { ok: false, legacy: false }
+  if (LEGACY_SHA256.test(stored)) {
+    // старый формат (sha256) — принимаем и просим апгрейда
+    return { ok: timingSafeEqHex(sha256(password), stored), legacy: true }
+  }
+  if (!stored.startsWith('scrypt:')) return { ok: false, legacy: false }
+  const [, N, r, p, saltHex, hashHex] = stored.split(':')
+  try {
+    const expected = Buffer.from(hashHex, 'hex')
+    const derived = scryptSync(password, Buffer.from(saltHex, 'hex'), expected.length, { N: +N, r: +r, p: +p })
+    return { ok: timingSafeEqual(derived, expected), legacy: false }
+  } catch {
+    return { ok: false, legacy: false }
+  }
+}
+
+function timingSafeEqHex(a, b) {
+  const ba = Buffer.from(a, 'utf8')
+  const bb = Buffer.from(b, 'utf8')
+  return ba.length === bb.length && timingSafeEqual(ba, bb)
+}
+
 // Config with admin password. Пароль показывается в консоль ОДИН раз при
-// первом запуске и сразу удаляется из config.json — дальше хранится только хэш.
-// Если в конфиге нет ни пароля, ни хэша — генерируем случайный (никаких «admin»).
+// первом запуске и сразу удаляется из config.json — дальше хранится только
+// scrypt-хэш. 16 случайных байт (~128 бит entropy).
 let config = {}
 if (existsSync(CONFIG_FILE)) {
   config = JSON.parse(readFileSync(CONFIG_FILE, 'utf8'))
   if (!config.adminPasswordHash && !config.adminPassword) {
-    const password = randomBytes(4).toString('hex')
-    config.adminPassword = password
+    config.adminPassword = randomBytes(16).toString('base64url')
   }
   if (!config.adminPasswordHash) {
-    config.adminPasswordHash = sha256(config.adminPassword || 'admin')
+    config.adminPasswordHash = hashPassword(config.adminPassword || 'admin')
   }
   if (config.adminPassword) {
     console.log('=== ADMIN PANEL ===')
@@ -45,8 +103,8 @@ if (existsSync(CONFIG_FILE)) {
     writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2), 'utf8')
   }
 } else {
-  const password = randomBytes(4).toString('hex')
-  config = { adminPasswordHash: sha256(password) }
+  const password = randomBytes(16).toString('base64url')
+  config = { adminPasswordHash: hashPassword(password) }
   writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2), 'utf8')
   console.log('=== ADMIN PANEL ===')
   console.log(`Password: ${password} (сохраните, больше не покажется)`)
@@ -105,7 +163,7 @@ function saveData(data) {
 function secHeaders(extra, isAdmin) {
   const csp = [
     "default-src 'self'",
-    `script-src 'self'${isAdmin ? " 'unsafe-inline'" : ''}`,
+    `script-src 'self'`,
     "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
     "font-src 'self' https://fonts.gstatic.com",
     "img-src 'self' data: https:",
@@ -182,6 +240,22 @@ function rateLimit(key, limit, windowMs) {
   return b.count <= limit
 }
 
+// Реальный IP клиента (P1-05): заголовки X-Real-IP/X-Forwarded-For доверяем
+// только когда запрос пришёл с loopback (nginx на той же машине) либо при
+// явном TRUST_PROXY=1. При прямом публичном доступе к Node заголовки
+// подделать нельзя-нельзя проверить — используем remoteAddress.
+function clientIp(req) {
+  const ra = String(req.socket.remoteAddress || 'unknown')
+  const loopback = ra === '127.0.0.1' || ra === '::1' || ra === '::ffff:127.0.0.1'
+  if (loopback || process.env.TRUST_PROXY === '1') {
+    const xff = req.headers['x-forwarded-for']
+    if (typeof xff === 'string' && xff.trim()) return xff.split(',')[0].trim()
+    const xri = req.headers['x-real-ip']
+    if (typeof xri === 'string' && xri.trim()) return xri.trim()
+  }
+  return ra
+}
+
 function readBody(req) {
   return new Promise((resolveBody, reject) => {
     let size = 0
@@ -199,10 +273,12 @@ function readBody(req) {
   })
 }
 
-// Сессии админа: случайные токены с TTL. Токен ≠ хэшу пароля, кража токена
-// перестаёт работать через 12 часов и после перезапуска сервера.
+// Сессии админа: случайные токены с TTL, передаются HttpOnly-cookie
+// (JS админки не имеет доступа к креденшалу — P1-07).
 const SESSION_TTL = 12 * 60 * 60 * 1000
+const SESSION_COOKIE = 'memorial_admin'
 const sessions = new Map()
+
 function createSession() {
   const token = randomBytes(24).toString('hex')
   sessions.set(token, Date.now() + SESSION_TTL)
@@ -216,9 +292,27 @@ function createSession() {
   return token
 }
 
+function parseCookies(req) {
+  const header = req.headers.cookie
+  const out = {}
+  if (typeof header !== 'string') return out
+  for (const part of header.split(';')) {
+    const i = part.indexOf('=')
+    if (i < 0) continue
+    out[part.slice(0, i).trim()] = decodeURIComponent(part.slice(i + 1).trim())
+  }
+  return out
+}
+
+function sessionCookie(token) {
+  const secure = process.env.COOKIE_SECURE === '1' ? '; Secure' : ''
+  return `${SESSION_COOKIE}=${token}; HttpOnly; SameSite=Strict; Path=/; Max-Age=${Math.floor(SESSION_TTL / 1000)}${secure}`
+}
+
+const CLEAR_COOKIE = `${SESSION_COOKIE}=; HttpOnly; SameSite=Strict; Path=/; Max-Age=0`
+
 function auth(req) {
-  const h = req.headers['authorization'] || ''
-  const token = h.startsWith('Bearer ') ? h.slice(7) : ''
+  const token = parseCookies(req)[SESSION_COOKIE]
   if (!token || !/^[a-f0-9]{48}$/.test(token)) return false
   const exp = sessions.get(token)
   if (!exp || exp < Date.now()) {
@@ -228,12 +322,28 @@ function auth(req) {
   return true
 }
 
+// CSRF: для state-changing admin-запросов проверяем Origin, если он пришёл,
+// и требуем JSON content-type (HTML-форма не может отправить application/json).
+function csrfOk(req) {
+  if (req.method === 'GET' || req.method === 'HEAD') return true
+  const origin = req.headers.origin
+  if (typeof origin === 'string' && origin.length) {
+    try {
+      if (new URL(origin).host !== (req.headers.host || '')) return false
+    } catch {
+      return false
+    }
+  }
+  const ct = String(req.headers['content-type'] || '')
+  return ct.includes('application/json')
+}
+
 function hashEq(a, b) {
   // timing-safe сравнение одинаковых по длине hex-строк
-  const ba = Buffer.from(String(a), 'utf8')
-  const bb = Buffer.from(String(b), 'utf8')
-  return ba.length === bb.length && timingSafeEqual(ba, bb)
+  return timingSafeEqHex(a, b)
 }
+
+void hashEq // оставлен для отладочных проверок хэшей
 
 const MIME = {
   '.html': 'text/html; charset=utf-8',
@@ -278,7 +388,7 @@ const server = http.createServer(async (req, res) => {
   try {
     // ---- API ----
     if (p.startsWith('/api/')) {
-      const ip = req.socket.remoteAddress || 'unknown'
+      const ip = clientIp(req)
 
       // Полный каталог — основной источник данных клиента (каталог больше
       // не бандлится в JS). Сериализация кэшируется и сбрасывается при
@@ -326,10 +436,13 @@ const server = http.createServer(async (req, res) => {
             return send(res, 400, { error: 'Памятник не найден' }, req)
           }
         }
-        if (!/^https?:\/\//i.test(urlRaw) || urlRaw.length > 2048) {
-          return send(res, 400, { error: 'Укажите корректный URL изображения (http/https)' })
+        if (!isSafeExternalUrl(urlRaw)) {
+          return send(res, 400, { error: urlError() }, req)
         }
-        if (source.length > 120) return send(res, 400, { error: 'Название источника слишком длинное' })
+        if (source.length > 120) return send(res, 400, { error: 'Название источника слишком длинное' }, req)
+        if (sourceUrl && !isSafeExternalUrl(sourceUrl)) {
+          return send(res, 400, { error: 'Ссылка на источник: ' + urlError() }, req)
+        }
         if (comment.length > 500) return send(res, 400, { error: 'Комментарий слишком длинный' })
         const data = loadData()
         const id = data.reduce((m, x) => Math.max(m, x.id), 0) + 1
@@ -409,11 +522,11 @@ const server = http.createServer(async (req, res) => {
         if (description.length < 50 || description.length > 2000) {
           return send(res, 400, { error: 'Описание: от 50 до 2000 символов' }, req)
         }
-        if (!/^https?:\/\//i.test(photoUrl) || photoUrl.length > 2048) {
-          return send(res, 400, { error: 'Укажите корректную ссылку на фото (http/https)' }, req)
+        if (!isSafeExternalUrl(photoUrl)) {
+          return send(res, 400, { error: 'Ссылка на фото: ' + urlError() }, req)
         }
-        if (!/^https?:\/\//i.test(sourceUrl) && sourceUrl) {
-          return send(res, 400, { error: 'Ссылка на источник должна начинаться с http(s)://' }, req)
+        if (sourceUrl && !isSafeExternalUrl(sourceUrl)) {
+          return send(res, 400, { error: 'Ссылка на источник: ' + urlError() }, req)
         }
         if (!Number.isFinite(lat) || !Number.isFinite(lng) || lat < 41 || lat > 82 || lng < 19 || lng > 190) {
           return send(res, 400, { error: 'Координаты вне территории России — проверьте широту и долготу' }, req)
@@ -457,15 +570,29 @@ const server = http.createServer(async (req, res) => {
       if (p === '/api/admin/login' && req.method === 'POST') {
         if (!rateLimit('login:' + ip, 10, 5 * 60_000)) return send(res, 429, { error: 'Слишком много попыток входа' }, req)
         const body = await readBody(req)
-        const hash = sha256((body.password || '').trim())
-        if (hashEq(hash, config.adminPasswordHash)) {
-          return send(res, 200, { ok: true, token: createSession() })
+        const verdict = verifyPassword((body.password || '').trim(), config.adminPasswordHash)
+        if (!verdict.ok) return send(res, 401, { error: 'Неверный пароль' }, req)
+        // legacy sha256-хэш апгрейдим до scrypt при первом же успешном входе
+        if (verdict.legacy) {
+          config.adminPasswordHash = hashPassword((body.password || '').trim())
+          writeFileSync(CONFIG_FILE, JSON.stringify(config, null, 2), 'utf8')
+          console.log('admin password hash upgraded to scrypt')
         }
-        return send(res, 401, { error: 'Неверный пароль' })
+        const token = createSession()
+        res.setHeader('Set-Cookie', sessionCookie(token))
+        return send(res, 200, { ok: true }, req)
+      }
+
+      if (p === '/api/admin/logout' && req.method === 'POST') {
+        const token = parseCookies(req)[SESSION_COOKIE]
+        if (token) sessions.delete(token)
+        res.setHeader('Set-Cookie', CLEAR_COOKIE)
+        return send(res, 200, { ok: true }, req)
       }
 
       if (p.startsWith('/api/admin/')) {
-        if (!auth(req)) return send(res, 401, { error: 'Требуется авторизация' })
+        if (!csrfOk(req)) return send(res, 403, { error: 'Запрос отклонён (CSRF)' }, req)
+        if (!auth(req)) return send(res, 401, { error: 'Требуется авторизация' }, req)
 
         if (p === '/api/admin/photos' && req.method === 'GET') {
           const all = loadData().slice().sort((a, b) => b.id - a.id)
@@ -521,6 +648,11 @@ const server = http.createServer(async (req, res) => {
             rec.moderatedAt = new Date().toISOString()
 
             if (rec.status === 'approved') {
+              // защита от legacy-заявок с небезопасными URL (moderator подтверждает вручную)
+              if (!isSafeExternalUrl(rec.photoUrl)) {
+                saveSuggestions(all)
+                return { status: 400, body: { error: 'URL фото заявки не проходит проверку безопасности — отклоните заявку' } }
+              }
               const monuments = await getMonuments()
               const nextId = monuments.reduce((mx, m) => Math.max(mx, m.id), 0) + 1
               let slug = slugifyRu(rec.title)

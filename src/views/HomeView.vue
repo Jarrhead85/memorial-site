@@ -93,7 +93,7 @@
           </button>
         </div>
 
-        <div v-else class="empty-result">
+        <div v-if="filteredMonuments.length === 0" class="empty-result">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" class="empty-icon" aria-hidden="true">
             <circle cx="11" cy="11" r="8"/>
             <line x1="21" y1="21" x2="16.65" y2="16.65"/>

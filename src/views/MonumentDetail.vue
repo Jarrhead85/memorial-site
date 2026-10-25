@@ -280,6 +280,9 @@ async function share() {
 }
 const galleryIndex = ref(0)
 const approvedPhotos = ref([])
+// гонка запросов (P1-03): старый fetch отменяется при смене памятника,
+// ответ предыдущего запроса игнорируется
+let photosAbort = null
 
 useModalScrollLock(() => mapVisible.value || photoVisible.value || lightboxOpen.value)
 
@@ -312,19 +315,25 @@ const currentImage = computed(() => {
 })
 
 async function loadApprovedPhotos() {
+  photosAbort?.abort()
+  const controller = new AbortController()
+  photosAbort = controller
+  approvedPhotos.value = []
   const m = monument.value
   if (!m) return
   try {
-    const res = await fetch(`/api/photos?monumentId=${m.id}`)
+    const res = await fetch(`/api/photos?monumentId=${m.id}`, { signal: controller.signal })
     if (!res.ok) throw new Error('bad status')
     const data = await res.json()
+    if (photosAbort !== controller) return // пришёл ответ уже неактуального запроса
     approvedPhotos.value = (data.photos || []).map(p => ({
       url: p.url,
       source: p.source,
       sourceUrl: p.sourceUrl
     }))
     if (galleryIndex.value >= allImages.value.length) galleryIndex.value = 0
-  } catch {
+  } catch (e) {
+    if (photosAbort !== controller) return // отмена — не наша ошибка
     approvedPhotos.value = []
   }
 }

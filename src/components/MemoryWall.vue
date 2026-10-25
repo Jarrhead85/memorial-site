@@ -61,7 +61,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 
 const props = defineProps({
   monumentId: { type: Number, required: true }
@@ -92,7 +92,8 @@ function formatDate(iso) {
   }
 }
 
-onMounted(async () => {
+async function loadEntries() {
+  entries.value = []
   try {
     const res = await fetch(`/api/wall?monumentId=${props.monumentId}`)
     if (res.ok) {
@@ -100,7 +101,12 @@ onMounted(async () => {
       entries.value = d.entries || []
     }
   } catch { /* оффлайн — просто покажем пустую стену */ }
-})
+}
+
+// SPA-переход между памятниками не пересоздаёт компонент —
+// следим за monumentId и перезагружаем записи (P1-02)
+watch(() => props.monumentId, loadEntries)
+onMounted(loadEntries)
 
 async function submit() {
   error.value = ''
